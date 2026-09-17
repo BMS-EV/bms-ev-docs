@@ -1,0 +1,66 @@
+# Hybrid Inverter Reference Pages
+
+This directory documents 56 hybrid inverter models compatible with BMS-EV.
+
+Full technical documentation: [docs.bms-ev.com/inverters/](https://docs.bms-ev.com/inverters/)
+
+## All supported inverters
+
+| Hybrid inverter | Compatible batteries |
+|---|---|
+| Afore AF17K-THA 230V | 71 |
+| Deye SUN-(29.9-50)K-SG01HP3-EU-BM3 | 70 |
+| Deye SUN-(5-20)K-SG01HP3-EU-AM2 | 70 |
+| Felicity T-REX-50KHP3G01 | 70 |
+| Ferroamp EnergyHub | 70 |
+| FoxESS H1/AC1 | 71 |
+| FoxESS H3 Pro | 71 |
+| FoxESS H3 Smart | 71 |
+| FoxESS H3/AC3 | 71 |
+| Fronius Primo Gen24 Plus | 71 |
+| Fronius Symo Gen24 Plus | 72 |
+| Fronius Symo Hybrid 3.0/4.0/5.0-3-S | 71 |
+| Fronius Verto Plus 15-33kW | 71 |
+| GoodWe A-ES hybrid inverter (America Split Phase) | 71 |
+| GoodWe BH AC battery inverter | 71 |
+| GoodWe BT AC battery inverter | 71 |
+| GoodWe EH hybrid solar | 71 |
+| GoodWe EHB high voltage battery | 70 |
+| GoodWe EHB hybrid inverter (South Africa only) | 71 |
+| GoodWe ES hybrid solar | 71 |
+| GoodWe ET hybrid solar | 71 |
+| GoodWe SBP battery inverter | 71 |
+| Growatt HV Growatt SPH | 71 |
+| Growatt HV Growatt SPH (TL3-BH-UP) (5-10kW 3P) | 71 |
+| Growatt LV Growatt SPH (4.6-10) (TL3-BH) (5-10kW 3P) | 71 |
+| Growatt WIT 50-100K-HU | 70 |
+| Growatt WIT 50-100K-HU (TL3-BH-UP) (5-10kW 3P) | 70 |
+| Hoymiles HYT/HAT-HV | 70 |
+| Huawei SUN2000-(2-6)KTL-L1 (400V) | 65 |
+| Huawei SUN2000-(3-20)K-MB0 (400V) | 65 |
+| Kostal Plenticore Plus (3.0-10) | 71 |
+| Maple Leaf Northern Fox H1-H3-AC1-KH | 71 |
+| SAJ H2 Hybrid (3-12)K-S2 | 71 |
+| SMA Sunny Boy Smart Energy 3.6 / 4.0 / 5.0 / 6.0-50 Hybrid Inverter | 71 |
+| SMA Sunny Boy Smart Energy 3.6-6.0 | 71 |
+| SMA Sunny Boy Storage 2.5 | 71 |
+| SMA Sunny Boy Storage 2.5 / 3.7 / 5.0 / 6.0 | 71 |
+| SMA Sunny Tripower Smart 5.0-10.0 SE | 71 |
+| SMA Sunny Tripower X | 71 |
+| Sofar 5K...20KTL-3PH | 70 |
+| Sofar HYD (3-20)KTL-3PH | 70 |
+| SolaX X1 Hybrid | 71 |
+| SolaX X1 Hybrid G4 | 72 |
+| SolaX X3 Hybrid | 71 |
+| SolaX X3 Hybrid G4 | 71 |
+| SolaX X3-Ultra Hybrid | 70 |
+| SolaX X3-Ultra Hybrid G4 | 3 |
+| Solis RHI-3P(5-10)K-HVES-5G / S6-EH1P10K-H-US-APST | 71 |
+| Solis RHI-3P(5-10)K-HVES-5G / S6-EH3P-(5-10.0K)-H-EU | 71 |
+| Solis S5-EH1P (3-6) K-L (5-6 kW 1P US) | 71 |
+| Solis S6-EH3P(8-15)K-H 8-15 kW 3P (5-6 kW 1P US) | 71 |
+| Solxpow Solxpow X3 12-20kW | 68 |
+| Solxpow X3 12-20kW | 3 |
+| Sungrow SH15T/SH20T/SH25T | 70 |
+| Sungrow SH3.0/3.6/4.0/5.0/6.0RS | 71 |
+| Sungrow SH5.0/6.0/8.0/10RT | 71 |
