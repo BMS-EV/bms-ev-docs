@@ -92,3 +92,18 @@ The BMS-EV Controller ships pre-flashed with firmware 15.0.14 (September 2026). 
 - **Documentation:** https://docs.bms-ev.com/
 - **Email:** office@bms-ev.com
 - **WhatsApp:** +48 506 112 993
+
+
+### 2026-09-18 (P0 fixes from ChatGPT audit review #3)
+- **compatibility.csv schema v2.0**: added 9 new provenance fields per row:
+  - status, verification_type: field_verified / protocol_verified / in_catalog
+  - verification_date, battery_part_number, battery_revision
+  - inverter_firmware_min, bms_ev_firmware_min, hardware_revision
+  - source, notes
+- **Kia EV6 + Sofar HYD 3-20KTL-3PH** marked as field_verified with PV Magazine July 2026 reference
+- **541 rows marked protocol_verified** across Tesla, BMW i3, BMW iX/i4-i7, Nissan Leaf, VW MEB, Renault Zoe Gen1/Gen2, Peugeot e-208, Opel Corsa-e, Citroen e-C4 - sources: dalathegreat Battery-Emulator, openinverter.org, batterydesign.net, pushevs.com, My Nissan Leaf forum, LeafSpy
+- **3273 rows remain in_catalog** - BMS-EV firmware supports the pair via protocol translation but no field/protocol source attached yet
+- **WP blog corrections**: 25 translations of Complete BMS Guide for Tesla Model 3/Y/S received technical corrections note - Pylontech LV vs BYD HVS/Pylontech HV per inverter, Tesla generic voltage/cell-count/balance simplifications flagged, HV connector specs, commissioning per-system rather than universal 10-20A/30min rules
+- **34 translations of DIY 30 kWh Tesla Modules** received architectural distinction note - complete OEM pack vs reconfigured modules
+- **About + Safety Architecture pages (10 translations)** received clarification - automotive OEM validation is NOT stationary ESS validation - installer responsible for IEC 60364-7-712, VDE-AR-N 4105, NFPA 855, UL 9540 compliance
+- **WP page 168016**: 80+ battery types marketing overstatement -> 73 battery profiles (68 OEM EV pack variants + 5 DIY BMS profiles) with docs link
