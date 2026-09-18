@@ -116,3 +116,25 @@ The BMS-EV Controller ships pre-flashed with firmware 15.0.14 (September 2026). 
 - battery_part_number populated: 0 to 2308 rows - 60.5 percent of dataset now has explicit OEM part numbers
 - Sources section added to 20 authority pages: 11 battery + 9 inverter authority pages on docs.bms-ev.com now have h2 id=sources table with Parameter / Value / Source rows referencing batterydesign.net, dalathegreat/Battery-Emulator, openinverter.org, pushevs.com, manufacturer datasheets and BMS-EV production field data
 - 462 WP blog posts across 26 languages received the Technical corrections audit 2026-09-18 note covering commissioning current, commissioning time, HV connector requirements, cable sizing, cell voltage/SoC/balance simplifications
+
+### 2026-09-18 (P0 + P1 - audit v4 closeout)
+- **P0.1** Compliance: Article 47 -> Article 77 (Digital Battery Passport, applicable from 18 February 2027 per Regulation EU 2023/1542). Article 47 defines the due-diligence chapter scope, not the passport itself. Fixed on /compliance/ and /second-life-battery/regulations/
+- **P0.2** Safety: "CE marking transferability" replaced with the actual mechanism under Reg 2023/1542 Art. 45 (repurposing/remanufacturing operator obligations) and Art. 77 (Digital Battery Passport). Regulatory status of the repurposed battery must be assessed for the specific product and economic operator
+- **P0.3** Getting Started: Nissan Leaf and Renault Zoe classification corrected - HV whole pack (~350-360 V) is the primary route; module-reconfigured 48 V LV bank is a separate DIY route (not the default)
+- **P0.4** Tesla + SOFAR integration: 4.05 V/cell taper threshold now correctly split by chemistry - NCA/NMC packs use ~4.05 V/cell taper, LFP packs use ~3.45 V/cell taper (3.65 V max). Applying NCA threshold to LFP under-utilises the pack; applying LFP threshold to NCA risks over-charge
+- **P0.5** Tesla + SOFAR: added per-variant compatibility table (Model 3 LR NCA / SR+ NCA / SR+ LFP / Highland LR) with chemistry, topology, voltage, firmware and verification status
+- **P0.6** Compatibility Matrix: reworded from "every row tested" to accurate verification level breakdown. Added Verification levels section documenting Field tested / Bench tested / Protocol verified / Engineering validated
+- **P0.7** Inverters page: neutralised marketing language - "premium tier" and "best price/performance" replaced with factual descriptions
+- **P0.8** Safety cooling: universal "safe at 0.3 C" replaced with pack-specific engineering recommendation subject to validation
+- **P0.9** Safety: "All original EV BMSes implement cell balancing" softened to "Many EV BMS architectures implement cell balancing; strategy and thresholds are manufacturer- and pack-specific"
+- **P0.10** IMD thresholds (500 Ω/V warning, 100 Ω/V trip) presented as BMS-EV design thresholds, not universal industry standard
+- **P1.11** Megger 500/1000 V - added explicit warning: do not apply insulation-test voltage unless OEM permits that test voltage and configuration
+- **P1.12** Safety enclosure specs (1.5 mm steel, 60 min fire, 200 cm2 vent, H2/CO 500 ppm) - each marked as BMS-EV engineering recommendation with source/jurisdiction context
+- **P1.13** EN 62619 sect 8 enclosure - marked as BMS-EV engineering interpretation
+- **P1.14** ASIL C/D universal claim removed - replaced with "functional-safety frameworks such as ISO 26262; applicable ASIL classification is manufacturer- and function-specific"
+- **P1.15** "factory BMS holds manufacturer safety certificates" replaced with "original battery pack was developed and validated as part of the vehicle OEM safety architecture"
+- **P1.16** CAN 125 kbps K-line replacement categorical claim softened
+- **P1.20** Homepage 70-90 percent capacity claim now sourced (Recurrent Auto 2025, Geotab 2023) with variability disclaimer
+- **P1.21** Getting Started prices - full methodology added: sample size, sources, country, date range, VAT/shipping treatment, nominal vs usable capacity basis
+- **P1.23** Compliance EN 62619 "interoperability" replaced with "applicable safety requirements of industrial secondary lithium battery systems; applicability to complete reused ESS depends on system architecture and conformity assessment"
+- **P1.24** Safe-language audit - marketing terms like "safest way", "safer than", "guarantees safety" replaced with neutral technical language (retains, provides, monitors, limits, fails open, is designed to, was validated)
