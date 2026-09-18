@@ -29,7 +29,7 @@ BMS-EV is a controller platform that:
 
 | Metric | Value |
 |--------|-------|
-| **EV battery pack variants supported** | 72 |
+| **EV battery pack variants supported** | 73 |
 | **Hybrid inverter models supported** | 56 |
 | **Pre-configured combinations** | 3,815 |
 | **Controllers delivered** | 300+ (since 2024) |
