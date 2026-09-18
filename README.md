@@ -31,14 +31,14 @@ BMS-EV is a controller platform that:
 |--------|-------|
 | **EV battery models supported** | 72 |
 | **Hybrid inverter models supported** | 56 |
-| **Pre-configured combinations** | 3,800+ |
+| **Pre-configured combinations** | 3,815 |
 | **Controllers delivered** | 300+ (since 2024) |
 | **Shop languages** | 26 |
 
 ## Quick Links
 
 ### Documentation
-- 📊 [**Compatibility Matrix**](https://docs.bms-ev.com/compatibility/) — 72 batteries × 56 inverters, filter by voltage range and CAN protocol
+- 📊 [**Compatibility Matrix**](https://docs.bms-ev.com/compatibility/) — 73 batteries × 56 inverters, filter by voltage range and CAN protocol
 - 🚀 [**Getting Started**](https://docs.bms-ev.com/getting-started/) — how EV battery reuse works, what to buy
 - 🔒 [**Safety Architecture**](https://docs.bms-ev.com/safety/) — HV isolation, precharge, HVIL, standards
 - 💡 [**Alternatives**](https://docs.bms-ev.com/alternatives/) — BMS-EV vs Battery-Emulator, Batrium, Orion BMS 2, SimpBMS, REC
@@ -56,7 +56,7 @@ BMS-EV is a controller platform that:
 - [BYD Atto 3 / Yuan Plus](https://docs.bms-ev.com/batteries/byd-atto-3/) — 50/60 kWh Blade LFP
 - [MG 4](https://docs.bms-ev.com/batteries/mg-4/) — 51/64 NMC, 77 LFP Trophy
 - [Ford Mustang Mach-E](https://docs.bms-ev.com/batteries/ford-mustang-mach-e/) — 68/88/98 kWh
-- [All 72 batteries](https://docs.bms-ev.com/batteries/)
+- [All 73 batteries](https://docs.bms-ev.com/batteries/)
 
 ### Inverter Reference Pages
 - [Deye SUN HP3](https://docs.bms-ev.com/inverters/deye/) — 5-50 kW hybrid, single- and three-phase
@@ -118,7 +118,7 @@ Full comparison: [docs.bms-ev.com/alternatives/](https://docs.bms-ev.com/alterna
 
 ## Data
 
-- **[compatibility.csv](compatibility.csv)** — machine-readable database of 3,800+ pre-configured battery × inverter combinations shipping today
+- **[compatibility.csv](compatibility.csv)** — machine-readable database of 3,815 pre-configured battery × inverter combinations shipping today
 - **[docs.bms-ev.com/sitemap.xml](https://docs.bms-ev.com/sitemap.xml)** — full sitemap
 - **[docs.bms-ev.com/llms.txt](https://docs.bms-ev.com/llms.txt)** — LLM-friendly documentation index
 
