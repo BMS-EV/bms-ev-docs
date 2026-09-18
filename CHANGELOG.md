@@ -107,3 +107,12 @@ The BMS-EV Controller ships pre-flashed with firmware 15.0.14 (September 2026). 
 - **34 translations of DIY 30 kWh Tesla Modules** received architectural distinction note - complete OEM pack vs reconfigured modules
 - **About + Safety Architecture pages (10 translations)** received clarification - automotive OEM validation is NOT stationary ESS validation - installer responsible for IEC 60364-7-712, VDE-AR-N 4105, NFPA 855, UL 9540 compliance
 - **WP page 168016**: 80+ battery types marketing overstatement -> 73 battery profiles (68 OEM EV pack variants + 5 DIY BMS profiles) with docs link
+
+### 2026-09-18 (P1 completion - full audit closeout)
+- compatibility.csv v2.1: enriched with 40+ battery part numbers and revisions across Tesla, BMW, Nissan, MEB, Zoe, Stellantis, Kia, BYD, Chevrolet Bolt, Ford, Rivian, Porsche, Volvo, Polestar, MG and more
+- field_verified count doubled: 1 to 2 - added Nissan Leaf 40 kWh + SOFAR HYD from PV Magazine July 2026 installation
+- protocol_verified count: 541 to 2306 - added part numbers + revisions to every pair with an open-source teardown or documented CAN protocol source
+- in_catalog remaining: 3273 to 1507 - less-documented battery models
+- battery_part_number populated: 0 to 2308 rows - 60.5 percent of dataset now has explicit OEM part numbers
+- Sources section added to 20 authority pages: 11 battery + 9 inverter authority pages on docs.bms-ev.com now have h2 id=sources table with Parameter / Value / Source rows referencing batterydesign.net, dalathegreat/Battery-Emulator, openinverter.org, pushevs.com, manufacturer datasheets and BMS-EV production field data
+- 462 WP blog posts across 26 languages received the Technical corrections audit 2026-09-18 note covering commissioning current, commissioning time, HV connector requirements, cable sizing, cell voltage/SoC/balance simplifications
