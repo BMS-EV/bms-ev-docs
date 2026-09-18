@@ -29,7 +29,7 @@ BMS-EV is a controller platform that:
 
 | Metric | Value |
 |--------|-------|
-| **EV battery models supported** | 72 |
+| **EV battery pack variants supported** | 72 |
 | **Hybrid inverter models supported** | 56 |
 | **Pre-configured combinations** | 3,815 |
 | **Controllers delivered** | 300+ (since 2024) |
@@ -38,7 +38,7 @@ BMS-EV is a controller platform that:
 ## Quick Links
 
 ### Documentation
-- 📊 [**Compatibility Matrix**](https://docs.bms-ev.com/compatibility/) — 73 batteries × 56 inverters, filter by voltage range and CAN protocol
+- 📊 [**Compatibility Matrix**](https://docs.bms-ev.com/compatibility/) — 73 battery pack variants × 56 inverter variants, filter by voltage range and CAN protocol
 - 🚀 [**Getting Started**](https://docs.bms-ev.com/getting-started/) — how EV battery reuse works, what to buy
 - 🔒 [**Safety Architecture**](https://docs.bms-ev.com/safety/) — HV isolation, precharge, HVIL, standards
 - 💡 [**Alternatives**](https://docs.bms-ev.com/alternatives/) — BMS-EV vs Battery-Emulator, Batrium, Orion BMS 2, SimpBMS, REC
@@ -56,7 +56,7 @@ BMS-EV is a controller platform that:
 - [BYD Atto 3 / Yuan Plus](https://docs.bms-ev.com/batteries/byd-atto-3/) — 50/60 kWh Blade LFP
 - [MG 4](https://docs.bms-ev.com/batteries/mg-4/) — 51/64 NMC, 77 LFP Trophy
 - [Ford Mustang Mach-E](https://docs.bms-ev.com/batteries/ford-mustang-mach-e/) — 68/88/98 kWh
-- [All 73 batteries](https://docs.bms-ev.com/batteries/)
+- [All 73 battery pack variants](https://docs.bms-ev.com/batteries/)
 
 ### Inverter Reference Pages
 - [Deye SUN HP3](https://docs.bms-ev.com/inverters/deye/) — 5-50 kW hybrid, single- and three-phase
