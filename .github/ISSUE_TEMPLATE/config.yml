@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Shop inquiry
+    url: https://bms-ev.com/en/contact-4/
+    about: Product inquiries, custom configurations, quotes
+  - name: Technical support (existing customer)
+    url: mailto:office@bms-ev.com
+    about: Firmware, wiring, commissioning support for shipped controllers
+  - name: Documentation
+    url: https://docs.bms-ev.com/
+    about: Full technical documentation, compatibility matrix, integration guides
