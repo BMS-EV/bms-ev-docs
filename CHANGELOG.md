@@ -29,6 +29,18 @@ The BMS-EV Controller ships pre-flashed with firmware 15.0.14 (September 2026). 
 
 ## Documentation changelog
 
+### 2026-09-18 (later same day — external verification pass)
+- Kia EV6 77.4 kWh voltage corrected: ~697 V nominal / ~480–806 V operating range (per batterydesign.net teardown, 192s2p SK Innovation NMC pouch cells) — previous 523 V nominal was incorrect for 77.4 kWh (523 V applies to 58.2 kWh RWD variant only)
+- Kia EV6 + SOFAR HYD 15KTL case study clarified: max SoC limited to ~95 % (pack ~790 V) to stay safely below SOFAR 800 V DC ceiling
+- Tesla Model 3 SR+ LFP voltage refined: ~340 V nominal (3.2 V/cell × 106s, per batterydesign.net) instead of 345 V
+- VW MEB pack configurations corrected: 55 kWh = 96s2p (8 modules × 12 cells), 61 kWh = 108s2p (9 modules × 12 cells), 82 kWh = 96s3p (12 modules × 24 cells, 8s3p per module) — per batterydesign.net teardown; previous 77-82 kWh = 108s label was incorrect
+- SOFAR HYD 5-20KTL-3PH battery input clarified: **two independent battery channels** (25 A each, ~10 kW each) that can accept separate battery banks or be paralleled — not a single input as previously stated
+- Deye BYD HVS support ceiling clarified: 512 V max per BYD compatibility list, therefore E-GMP 697 V packs cannot use Deye SUN HP3 family (SOFAR HYD is the practical route)
+- Life projection methodology footer added to 6 pages: cites Preger et al. 2020, Recurrent 2025 fleet data, Geotab 2023 EV battery health report
+- Technical author/reviewer/revision metadata added to all 59 documentation pages
+- Cable specification clarified: H1Z2Z2-K solar cable (IEC 62930 / EN 50618) recommended; PV1-F noted as older standard not recommended for new installations
+
+
 ### 2026-09-18
 - Verified pairing: Kia EV6 + SOFAR HYD 15KTL-3PH added to Hyundai/Kia E-GMP page with case study
 - SOFAR HYD 5–20KTL-3PH battery input voltage corrected: 180–800 V DC absolute range (per SOFAR datasheet), separated from full-power range per model
