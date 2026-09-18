@@ -29,6 +29,30 @@ The BMS-EV Controller ships pre-flashed with firmware 15.0.14 (September 2026). 
 
 ## Documentation changelog
 
+### 2026-09-18 (full external verification pass — second review)
+- Full audit of docs against manufacturer datasheets and community reverse-engineering sources
+- **Renault Zoe Gen2 ZE50** chemistry corrected: LG Chem LGX E78 NCM 712 pouch cells (not CATL LFP as previously stated), per pushevs.com teardown
+- **Stellantis eCMP** (Peugeot e-208, Opel Corsa-e, Citroën) cell configuration corrected: 108s2p (not 96s), 356–448 V operating range, per dalathegreat Battery-Emulator wiki teardown
+- **GoodWe** DC voltage ranges corrected against official goodwe.com datasheets:
+  - EH single-phase: 85–460 V DC (was 100–450 V)
+  - ET three-phase: 200–800 V DC (ET/ET-LV) or 200–865 V DC (ETC G2) — was 180–600 V
+- **SolaX X3 Hybrid G4** DC range corrected: 120–800 V DC (was 90–800 V), per solaxpower.com/x3-hybrid-g4 datasheet
+- **Fronius GEN24 Plus** communication protocol corrected: **Modbus RTU RS485 via RJ45** (NOT CAN as previously stated). Emulates BYD HVS/M (2020-25) battery model. Voltage range: up to 450 V (Primo single-phase) or up to 700 V (Symo three-phase), per dalathegreat Battery-Emulator Fronius wiki
+- **SMA Sunny Boy Storage 3.7/5.0/6.0** corrected: this is a **high-voltage DC-coupled battery inverter** (100–550 V DC, 360 V rated) per sma.de datasheet — NOT a 48 V LV inverter as previously stated. Only the older SBS 2.5 was LV
+- **Sungrow SH5.0–10RT** corrected: 150–600 V DC (was 160–560 V), per en.sungrowpower.com datasheet
+- **Solis S6-EH1P** high-voltage corrected: 120–500 V DC (was 90–500 V), per solisinverters.com datasheet
+- **FoxESS H1/H3** corrected: 80–500 V DC (was 90–500 V), per fox-ess.com datasheet
+- **Deye SUN HP3** battery voltage range corrected — CRITICAL FIX:
+  - SUN-5K to 25K SG01HP3-EU-AM2: **160–700 V DC** (per Deye datasheet_sun-(5-25)k-sg01hp3-eu_230724_en.pdf)
+  - SUN-29.9K to 50K SG01HP3-EU-BM3/BM4: **160–800 V DC** (per Deye approved battery list DY-HV(160-800)-028)
+  - Previous documentation stated 160–500 V DC which was incorrect. This changes E-GMP + Deye compatibility: 77.4 kWh packs (peak ~806 V) can pair with Deye 29.9–50K models at max SoC ~95 %
+- **Tesla CAN message IDs** corrected against dalathegreat Battery-Emulator TESLA-BATTERY.cpp source code:
+  - Previous docs listed 0x132, 0x212, 0x352 (with wrong content), 0x312, 0x2A2, 0x102 — several of these were incorrect
+  - Actual frame set: 0x20A (contactors), 0x212 (BMS state, isolation), 0x229 (heartbeat), 0x252 (regen/discharge power), 0x292 (SoC), 0x2D2 (min/max cell V + current limits), 0x312 (thermal), 0x332 (brick V), 0x352 (energy metrics NOT cell V), 0x392 (module type/mass), 0x3D2 (lifetime counters), 0x2B4 (DCDC voltages) — with source-code link added
+- **Nissan Leaf CAN IDs** corrected: 0x1DC is **charge/discharge current limits** (not voltage/temperature as previously stated); 0x5BC added for SoH/temperatures; 0x5C0 corrected to cell voltage groups (multiplexed) not just pack temperature. Source: My Nissan Leaf forum + Dala Battery-Emulator project
+- Hyundai/Kia + Deye compatibility table updated to reflect corrected Deye voltage ranges (77.4 kWh E-GMP now compatible with Deye 29.9–50K SG01HP3 with SoC limit)
+
+
 ### 2026-09-18 (later same day — external verification pass)
 - Kia EV6 77.4 kWh voltage corrected: ~697 V nominal / ~480–806 V operating range (per batterydesign.net teardown, 192s2p SK Innovation NMC pouch cells) — previous 523 V nominal was incorrect for 77.4 kWh (523 V applies to 58.2 kWh RWD variant only)
 - Kia EV6 + SOFAR HYD 15KTL case study clarified: max SoC limited to ~95 % (pack ~790 V) to stay safely below SOFAR 800 V DC ceiling
