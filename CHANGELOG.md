@@ -138,3 +138,23 @@ The BMS-EV Controller ships pre-flashed with firmware 15.0.14 (September 2026). 
 - **P1.21** Getting Started prices - full methodology added: sample size, sources, country, date range, VAT/shipping treatment, nominal vs usable capacity basis
 - **P1.23** Compliance EN 62619 "interoperability" replaced with "applicable safety requirements of industrial secondary lithium battery systems; applicability to complete reused ESS depends on system architecture and conformity assessment"
 - **P1.24** Safe-language audit - marketing terms like "safest way", "safer than", "guarantees safety" replaced with neutral technical language (retains, provides, monitors, limits, fails open, is designed to, was validated)
+
+### 2026-09-19 (audit v5 P0 closeout — 18 blockers resolved)
+- P0-1 Tesla Model 3 LFP operating voltage unified to 265-387 V (was 212-383 V in 3 places, mathematically inconsistent with LFP cell 2.5 V minimum)
+- P0-2 Nissan Leaf CAN bus corrected to 500 kbps (was 250 kbps in one place on can-bus page)
+- P0-3 Renault Zoe Gen2 (ZE50) chemistry corrected in header table: LG Chem NCM 712 pouch (not CATL LFP as previously stated) + Gen1 41 kWh voltage unified to 360 V nominal
+- P0-4 Stellantis eCMP cell config unified to 108s2p across page (was 96s in body)
+- P0-5 + P0-6 Hyundai/Kia E-GMP: removed unsupported 216s / 587 V claim (mathematically impossible 216x3.63=784V) and unsupported 96s regional variant claim (no public teardown source); large-pack claims flagged NEEDS VERIFICATION
+- P0-7 Tesla Model 3 contactor architecture unified: the Tesla OEM BMS owns contactor and precharge sequencing internally, BMS-EV signals via CAN only. Removed 3 contradictory statements on the same page.
+- P0-8 VW MEB CAN IDs 0x1A5555xx flagged NEEDS VERIFICATION (extended 29-bit format not documented in public MEB teardowns)
+- P0-9 Nissan Leaf CAN IDs relabeled as telemetry frames + wake-frame reference added with dalathegreat source link
+- P0-10 Shop bms-ev.com page 168016: all "80+ battery" and "60+ inverter" references replaced with canonical 73 battery profiles / 56 hybrid inverter variants (5 replacements)
+- P0-11 Shop: "batteries themselves are automotive-grade with certification" universal safety claim replaced with per-standard OEM validation description + system-level ESS compliance disclaimer
+- P0-12 SOFAR HYD channel count split per model: 5/6/8KTL = 1 channel; 10/15/20KTL = 2 channels, per official SOFAR datasheet V5.2 2024
+- P0-13 Deye SUN HP3 DC input range unified per model across pages: 5-25K = 160-700 V (datasheet 2023-07-24); 29.9-50K = 160-800 V (approved battery list DY-HV(160-800)-028)
+- P0-14 SOFAR HYD DC range corrected to 180-800 V (was 180-750 V on 2 pages, per SOFAR datasheet)
+- P0-15 ISO 26262 ASIL C/D blanket claim softened: per-function classification varies by OEM and safety goal
+- P0-16 Structured data JSON-LD (TechArticle + Product + Dataset) added to 20 authority pages (11 battery + 9 inverter)
+- P0-17 batteries.csv (74 lines) and inverters.csv (57 lines) generated on docs.bms-ev.com/data/, GitHub repos synced
+- P0-18 Sitemap.xml lastmod refreshed to 2026-09-19 across all URLs
+- llms.txt updated with canonical CSV links section
