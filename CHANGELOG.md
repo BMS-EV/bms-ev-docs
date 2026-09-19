@@ -180,3 +180,26 @@ The BMS-EV Controller ships pre-flashed with firmware 15.0.14 (September 2026). 
 - SolaX X1-Hybrid G4 corrected from 90-500 V to 80-480 V per SolaX support documentation. The official X1 datasheet PDF is a scanned image with no extractable text, so the support-article figure is cited rather than a guessed value.
 - FoxESS H3 Smart corrected from 90-500 V to 80-500 V per fox-ess.com.
 - Remaining Deye SG04LP1/SG04LP3 references corrected: these are 48 V low-voltage products, previously shown with HV battery windows.
+
+### 2026-09-19 (audit round 6 - Deye phase/voltage + Tesla LFP topology)
+
+P0 - corrected against official manufacturer datasheets (text-extracted, not inferred):
+- **Deye SG01HP3-EU-AM2 is THREE-PHASE, not single-phase.** The datasheet title reads "Three Phase Hybrid Inverter", Grid Type is "Three Phase" and output is 3L/N/PE 220/380, 230/400 Vac. Docs previously listed the whole 5-20 kW range as 1P. Source: datasheet_sun-(5-25)k-sg01hp3-eu_230724_en.pdf
+- **Deye AM2 battery voltage is 160-700 V, not 160-500 V.** Corrected in the direct answer, the DC-range list and the FAQ.
+- **Deye AM2 model list corrected**: the range is 5/6/8/10/12/15/20/25 kW. Docs listed a non-existent 16K and omitted 15K and 25K.
+- **Deye battery current separated from PV MPPT current.** The table column previously showed "2x 15 A" in a way that could be read as a battery-port limit. Battery current is 30 A (5/6/8K), 37 A (10/12K), 50 A (15/20/25K), one battery input. PV figures (2 MPP trackers, 150-850 V, 20+20 / 26+20 / 26+26 A) are now stated separately with an explicit note.
+- **Deye BM3/BM4 has TWO battery inputs (50+50 A)**, not one - corrected, and the dual-pack FAQ answer updated accordingly.
+- **Tesla Model 3 SR+ LFP topology corrected.** 106s1p means exactly 106 prismatic CATL BTF0 cells (161 Ah, 3.2 V), arranged as 2x 25s1p + 2x 28s1p modules. Docs previously stated "~3300 cells", "parallel count varies 26-32P" and "CATL 2170 cylindrical" - all three were wrong, apparently carried over from the cylindrical NCA architecture. Pack is 55 kWh total / 49.8 kWh usable at 339.2 V nominal. Sources: batterydesign.net Tesla LFP teardown; ScienceDirect cell teardown.
+- **"All four Model 3 pack variants" replaced** with an explicit per-variant list including topology, on both the SOFAR and GoodWe integration pages.
+- **Contactor architecture unified as pack-specific.** The safety responsibility table previously stated "Yes - 12 V coil driver" for BMS-EV contactor drive, while the Tesla page correctly stated the OEM BMS owns the sequence. A new section explains that OEM-sequenced packs (Tesla, E-GMP, BMW, Zoe via CMM) run the sequence in their own BMS and BMS-EV only requests it over CAN, whereas reconfigured-module builds need BMS-EV to sequence an external precharge circuit. Getting Started updated to match.
+
+P1:
+- "Every EV battery pack is designed as a floating (IT) system" softened to "Most high-voltage EV battery packs", with an instruction to verify the topology per pack.
+- IMD threshold: "must alarm below 100 ohm/V (per IEC 61557-8)" replaced. 100 ohm/V is stated as the BMS-EV supported-system threshold; IEC 61557-8 is described as covering IMD device requirements, with the applied threshold a system design decision.
+- Safety cable/fuse table marked "Illustrative engineering examples only - not installation instructions and not universal specifications", with cable cells shortened and a single cable-standard note below (H1Z2Z2-K for new work; PV1-F not recommended; H07RN-F is an AC cable).
+- Porsche Taycan (J1) and Hyundai/Kia E-GMP split into separate table rows - they are different platforms with different voltages.
+- Getting Started "standard practice" replaced with jurisdiction- and insurer-dependent wording.
+- Compliance "may lawfully be repurposed for stationary storage" replaced with a framework statement plus the national requirements that also apply.
+- Homepage life claim split into Observed (fleet studies) and Modelled (BMS-EV projection with stated duty assumptions), linking to /research/.
+- compatibility.json and compatibility.csv: 1507 rows with verification_type in_catalog or empty are now explicitly engineering_validated. The dataset meta publishes the four-class vocabulary, definitions and per-class counts (2 field_verified, 2306 protocol_verified, 1507 engineering_validated).
+- Kia EV6 806 V full-charge figure marked as calculated (192 x 4.2 V) rather than measured, on both the case study and the E-GMP battery page.
