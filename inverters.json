@@ -1,294 +1,296 @@
 {
-    "meta": {
-        "generated": "2026-09-18",
-        "source": "https://bms-ev.com/ WooCommerce product catalog",
-        "total_batteries": 73,
-        "total_inverters": 56,
-        "total_combinations": 3815,
-        "canonical_url_docs": "https://docs.bms-ev.com/",
-        "canonical_url_shop": "https://bms-ev.com/",
-        "canonical_url_github": "https://github.com/BMS-EV/"
+  "meta": {
+    "generated": "2026-09-19",
+    "source": "https://bms-ev.com/ WooCommerce product catalog",
+    "total_batteries": 73,
+    "total_inverters": 56,
+    "total_combinations": 3768,
+    "canonical_url_docs": "https://docs.bms-ev.com/",
+    "canonical_url_shop": "https://bms-ev.com/",
+    "canonical_url_github": "https://github.com/BMS-EV/",
+    "total_battery_profiles": 70,
+    "note": "compatible_batteries is derived from compatibility.csv after deduplication."
+  },
+  "inverters": [
+    {
+      "name": "Afore AF17K-THA 230V",
+      "brand": "Afore",
+      "compatible_batteries": 70
     },
-    "inverters": [
-        {
-            "name": "Afore AF17K-THA 230V",
-            "brand": "Afore",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Deye SUN-(29.9-50)K-SG01HP3-EU-BM3",
-            "brand": "Deye",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "Deye SUN-(5-20)K-SG01HP3-EU-AM2",
-            "brand": "Deye",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "Felicity T-REX-50KHP3G01",
-            "brand": "Felicity",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "Ferroamp EnergyHub",
-            "brand": "Ferroamp",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "FoxESS H1/AC1",
-            "brand": "FoxESS",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "FoxESS H3 Pro",
-            "brand": "FoxESS",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "FoxESS H3 Smart",
-            "brand": "FoxESS",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "FoxESS H3/AC3",
-            "brand": "FoxESS",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Fronius Primo Gen24 Plus",
-            "brand": "Fronius",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Fronius Symo Gen24 Plus",
-            "brand": "Fronius",
-            "compatible_batteries": 72
-        },
-        {
-            "name": "Fronius Symo Hybrid 3.0/4.0/5.0-3-S",
-            "brand": "Fronius",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Fronius Verto Plus 15-33kW",
-            "brand": "Fronius",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "GoodWe A-ES hybrid inverter (America Split Phase)",
-            "brand": "GoodWe",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "GoodWe BH AC battery inverter",
-            "brand": "GoodWe",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "GoodWe BT AC battery inverter",
-            "brand": "GoodWe",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "GoodWe EH hybrid solar",
-            "brand": "GoodWe",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "GoodWe EHB high voltage battery",
-            "brand": "GoodWe",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "GoodWe EHB hybrid inverter (South Africa only)",
-            "brand": "GoodWe",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "GoodWe ES hybrid solar",
-            "brand": "GoodWe",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "GoodWe ET hybrid solar",
-            "brand": "GoodWe",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "GoodWe SBP battery inverter",
-            "brand": "GoodWe",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Growatt HV Growatt SPH",
-            "brand": "Growatt",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Growatt HV Growatt SPH (TL3-BH-UP) (5-10kW 3P)",
-            "brand": "Growatt",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Growatt LV Growatt SPH (4.6-10) (TL3-BH) (5-10kW 3P)",
-            "brand": "Growatt",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Growatt WIT 50-100K-HU",
-            "brand": "Growatt",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "Growatt WIT 50-100K-HU (TL3-BH-UP) (5-10kW 3P)",
-            "brand": "Growatt",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "Hoymiles HYT/HAT-HV",
-            "brand": "Hoymiles",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "Huawei SUN2000-(2-6)KTL-L1 (400V)",
-            "brand": "Huawei",
-            "compatible_batteries": 65
-        },
-        {
-            "name": "Huawei SUN2000-(3-20)K-MB0 (400V)",
-            "brand": "Huawei",
-            "compatible_batteries": 65
-        },
-        {
-            "name": "Kostal Plenticore Plus (3.0-10)",
-            "brand": "Kostal",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Maple Leaf Northern Fox H1-H3-AC1-KH",
-            "brand": "Maple",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "SAJ H2 Hybrid (3-12)K-S2",
-            "brand": "SAJ",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "SMA Sunny Boy Smart Energy 3.6 / 4.0 / 5.0 / 6.0-50 Hybrid Inverter",
-            "brand": "SMA",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "SMA Sunny Boy Smart Energy 3.6-6.0",
-            "brand": "SMA",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "SMA Sunny Boy Storage 2.5",
-            "brand": "SMA",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "SMA Sunny Boy Storage 2.5 / 3.7 / 5.0 / 6.0",
-            "brand": "SMA",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "SMA Sunny Tripower Smart 5.0-10.0 SE",
-            "brand": "SMA",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "SMA Sunny Tripower X",
-            "brand": "SMA",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Sofar 5K...20KTL-3PH",
-            "brand": "Sofar",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "Sofar HYD (3-20)KTL-3PH",
-            "brand": "Sofar",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "SolaX X1 Hybrid",
-            "brand": "SolaX",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "SolaX X1 Hybrid G4",
-            "brand": "SolaX",
-            "compatible_batteries": 72
-        },
-        {
-            "name": "SolaX X3 Hybrid",
-            "brand": "SolaX",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "SolaX X3 Hybrid G4",
-            "brand": "SolaX",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "SolaX X3-Ultra Hybrid",
-            "brand": "SolaX",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "SolaX X3-Ultra Hybrid G4",
-            "brand": "SolaX",
-            "compatible_batteries": 3
-        },
-        {
-            "name": "Solis RHI-3P(5-10)K-HVES-5G / S6-EH1P10K-H-US-APST",
-            "brand": "Solis",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Solis RHI-3P(5-10)K-HVES-5G / S6-EH3P-(5-10.0K)-H-EU",
-            "brand": "Solis",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Solis S5-EH1P (3-6) K-L (5-6 kW 1P US)",
-            "brand": "Solis",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Solis S6-EH3P(8-15)K-H 8-15 kW 3P (5-6 kW 1P US)",
-            "brand": "Solis",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Solxpow Solxpow X3 12-20kW",
-            "brand": "Solxpow",
-            "compatible_batteries": 68
-        },
-        {
-            "name": "Solxpow X3 12-20kW",
-            "brand": "Solxpow",
-            "compatible_batteries": 3
-        },
-        {
-            "name": "Sungrow SH15T/SH20T/SH25T",
-            "brand": "Sungrow",
-            "compatible_batteries": 70
-        },
-        {
-            "name": "Sungrow SH3.0/3.6/4.0/5.0/6.0RS",
-            "brand": "Sungrow",
-            "compatible_batteries": 71
-        },
-        {
-            "name": "Sungrow SH5.0/6.0/8.0/10RT",
-            "brand": "Sungrow",
-            "compatible_batteries": 71
-        }
-    ]
+    {
+      "name": "Deye SUN-(29.9-50)K-SG01HP3-EU-BM3",
+      "brand": "Deye",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Deye SUN-(5-20)K-SG01HP3-EU-AM2",
+      "brand": "Deye",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Felicity T-REX-50KHP3G01",
+      "brand": "Felicity",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Ferroamp EnergyHub",
+      "brand": "Ferroamp",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "FoxESS H1/AC1",
+      "brand": "FoxESS",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "FoxESS H3 Pro",
+      "brand": "FoxESS",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "FoxESS H3 Smart",
+      "brand": "FoxESS",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "FoxESS H3/AC3",
+      "brand": "FoxESS",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Fronius Primo Gen24 Plus",
+      "brand": "Fronius",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Fronius Symo Gen24 Plus",
+      "brand": "Fronius",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Fronius Symo Hybrid 3.0/4.0/5.0-3-S",
+      "brand": "Fronius",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Fronius Verto Plus 15-33kW",
+      "brand": "Fronius",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "GoodWe A-ES hybrid inverter (America Split Phase)",
+      "brand": "GoodWe",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "GoodWe BH AC battery inverter",
+      "brand": "GoodWe",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "GoodWe BT AC battery inverter",
+      "brand": "GoodWe",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "GoodWe EH hybrid solar",
+      "brand": "GoodWe",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "GoodWe EHB high voltage battery",
+      "brand": "GoodWe",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "GoodWe EHB hybrid inverter (South Africa only)",
+      "brand": "GoodWe",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "GoodWe ES hybrid solar",
+      "brand": "GoodWe",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "GoodWe ET hybrid solar",
+      "brand": "GoodWe",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "GoodWe SBP battery inverter",
+      "brand": "GoodWe",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Growatt HV Growatt SPH",
+      "brand": "Growatt",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Growatt HV Growatt SPH (TL3-BH-UP) (5-10kW 3P)",
+      "brand": "Growatt",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Growatt LV Growatt SPH (4.6-10) (TL3-BH) (5-10kW 3P)",
+      "brand": "Growatt",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Growatt WIT 50-100K-HU",
+      "brand": "Growatt",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Growatt WIT 50-100K-HU (TL3-BH-UP) (5-10kW 3P)",
+      "brand": "Growatt",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Hoymiles HYT/HAT-HV",
+      "brand": "Hoymiles",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Huawei SUN2000-(2-6)KTL-L1 (400V)",
+      "brand": "Huawei",
+      "compatible_batteries": 62
+    },
+    {
+      "name": "Huawei SUN2000-(3-20)K-MB0 (400V)",
+      "brand": "Huawei",
+      "compatible_batteries": 62
+    },
+    {
+      "name": "Kostal Plenticore Plus (3.0-10)",
+      "brand": "Kostal",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Maple Leaf Northern Fox H1-H3-AC1-KH",
+      "brand": "Maple",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SAJ H2 Hybrid (3-12)K-S2",
+      "brand": "SAJ",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SMA Sunny Boy Smart Energy 3.6 / 4.0 / 5.0 / 6.0-50 Hybrid Inverter",
+      "brand": "SMA",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SMA Sunny Boy Smart Energy 3.6-6.0",
+      "brand": "SMA",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SMA Sunny Boy Storage 2.5",
+      "brand": "SMA",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SMA Sunny Boy Storage 2.5 / 3.7 / 5.0 / 6.0",
+      "brand": "SMA",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SMA Sunny Tripower Smart 5.0-10.0 SE",
+      "brand": "SMA",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SMA Sunny Tripower X",
+      "brand": "SMA",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Sofar 5K...20KTL-3PH",
+      "brand": "Sofar",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Sofar HYD (3-20)KTL-3PH",
+      "brand": "Sofar",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SolaX X1 Hybrid",
+      "brand": "SolaX",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SolaX X1 Hybrid G4",
+      "brand": "SolaX",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SolaX X3 Hybrid",
+      "brand": "SolaX",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SolaX X3 Hybrid G4",
+      "brand": "SolaX",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SolaX X3-Ultra Hybrid",
+      "brand": "SolaX",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "SolaX X3-Ultra Hybrid G4",
+      "brand": "SolaX",
+      "compatible_batteries": 3
+    },
+    {
+      "name": "Solis RHI-3P(5-10)K-HVES-5G / S6-EH1P10K-H-US-APST",
+      "brand": "Solis",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Solis RHI-3P(5-10)K-HVES-5G / S6-EH3P-(5-10.0K)-H-EU",
+      "brand": "Solis",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Solis S5-EH1P (3-6) K-L (5-6 kW 1P US)",
+      "brand": "Solis",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Solis S6-EH3P(8-15)K-H 8-15 kW 3P (5-6 kW 1P US)",
+      "brand": "Solis",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Solxpow Solxpow X3 12-20kW",
+      "brand": "Solxpow",
+      "compatible_batteries": 68
+    },
+    {
+      "name": "Solxpow X3 12-20kW",
+      "brand": "Solxpow",
+      "compatible_batteries": 3
+    },
+    {
+      "name": "Sungrow SH15T/SH20T/SH25T",
+      "brand": "Sungrow",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Sungrow SH3.0/3.6/4.0/5.0/6.0RS",
+      "brand": "Sungrow",
+      "compatible_batteries": 70
+    },
+    {
+      "name": "Sungrow SH5.0/6.0/8.0/10RT",
+      "brand": "Sungrow",
+      "compatible_batteries": 70
+    }
+  ]
 }

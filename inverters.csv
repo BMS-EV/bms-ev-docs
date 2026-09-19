@@ -1,57 +1,57 @@
-hybrid_inverter,brand,compatible_batteries_count
-Afore AF17K-THA 230V,Afore,71
+hybrid_inverter,brand,compatible_battery_profiles
+Afore AF17K-THA 230V,Afore,70
 Deye SUN-(29.9-50)K-SG01HP3-EU-BM3,Deye,70
 Deye SUN-(5-20)K-SG01HP3-EU-AM2,Deye,70
 Felicity T-REX-50KHP3G01,Felicity,70
 Ferroamp EnergyHub,Ferroamp,70
-FoxESS H1/AC1,FoxESS,71
-FoxESS H3 Pro,FoxESS,71
-FoxESS H3 Smart,FoxESS,71
-FoxESS H3/AC3,FoxESS,71
-Fronius Primo Gen24 Plus,Fronius,71
-Fronius Symo Gen24 Plus,Fronius,72
-Fronius Symo Hybrid 3.0/4.0/5.0-3-S,Fronius,71
-Fronius Verto Plus 15-33kW,Fronius,71
-GoodWe A-ES hybrid inverter (America Split Phase),GoodWe,71
-GoodWe BH AC battery inverter,GoodWe,71
-GoodWe BT AC battery inverter,GoodWe,71
-GoodWe EH hybrid solar,GoodWe,71
+FoxESS H1/AC1,FoxESS,70
+FoxESS H3 Pro,FoxESS,70
+FoxESS H3 Smart,FoxESS,70
+FoxESS H3/AC3,FoxESS,70
+Fronius Primo Gen24 Plus,Fronius,70
+Fronius Symo Gen24 Plus,Fronius,70
+Fronius Symo Hybrid 3.0/4.0/5.0-3-S,Fronius,70
+Fronius Verto Plus 15-33kW,Fronius,70
+GoodWe A-ES hybrid inverter (America Split Phase),GoodWe,70
+GoodWe BH AC battery inverter,GoodWe,70
+GoodWe BT AC battery inverter,GoodWe,70
+GoodWe EH hybrid solar,GoodWe,70
 GoodWe EHB high voltage battery,GoodWe,70
-GoodWe EHB hybrid inverter (South Africa only),GoodWe,71
-GoodWe ES hybrid solar,GoodWe,71
-GoodWe ET hybrid solar,GoodWe,71
-GoodWe SBP battery inverter,GoodWe,71
-Growatt HV Growatt SPH,Growatt,71
-Growatt HV Growatt SPH (TL3-BH-UP) (5-10kW 3P),Growatt,71
-Growatt LV Growatt SPH (4.6-10) (TL3-BH) (5-10kW 3P),Growatt,71
+GoodWe EHB hybrid inverter (South Africa only),GoodWe,70
+GoodWe ES hybrid solar,GoodWe,70
+GoodWe ET hybrid solar,GoodWe,70
+GoodWe SBP battery inverter,GoodWe,70
+Growatt HV Growatt SPH,Growatt,70
+Growatt HV Growatt SPH (TL3-BH-UP) (5-10kW 3P),Growatt,70
+Growatt LV Growatt SPH (4.6-10) (TL3-BH) (5-10kW 3P),Growatt,70
 Growatt WIT 50-100K-HU,Growatt,70
 Growatt WIT 50-100K-HU (TL3-BH-UP) (5-10kW 3P),Growatt,70
 Hoymiles HYT/HAT-HV,Hoymiles,70
-Huawei SUN2000-(2-6)KTL-L1 (400V),Huawei,65
-Huawei SUN2000-(3-20)K-MB0 (400V),Huawei,65
-Kostal Plenticore Plus (3.0-10),Kostal,71
-Maple Leaf Northern Fox H1-H3-AC1-KH,Maple,71
-SAJ H2 Hybrid (3-12)K-S2,SAJ,71
-SMA Sunny Boy Smart Energy 3.6 / 4.0 / 5.0 / 6.0-50 Hybrid Inverter,SMA,71
-SMA Sunny Boy Smart Energy 3.6-6.0,SMA,71
-SMA Sunny Boy Storage 2.5,SMA,71
-SMA Sunny Boy Storage 2.5 / 3.7 / 5.0 / 6.0,SMA,71
-SMA Sunny Tripower Smart 5.0-10.0 SE,SMA,71
-SMA Sunny Tripower X,SMA,71
+Huawei SUN2000-(2-6)KTL-L1 (400V),Huawei,62
+Huawei SUN2000-(3-20)K-MB0 (400V),Huawei,62
+Kostal Plenticore Plus (3.0-10),Kostal,70
+Maple Leaf Northern Fox H1-H3-AC1-KH,Maple,70
+SAJ H2 Hybrid (3-12)K-S2,SAJ,70
+SMA Sunny Boy Smart Energy 3.6 / 4.0 / 5.0 / 6.0-50 Hybrid Inverter,SMA,70
+SMA Sunny Boy Smart Energy 3.6-6.0,SMA,70
+SMA Sunny Boy Storage 2.5,SMA,70
+SMA Sunny Boy Storage 2.5 / 3.7 / 5.0 / 6.0,SMA,70
+SMA Sunny Tripower Smart 5.0-10.0 SE,SMA,70
+SMA Sunny Tripower X,SMA,70
 Sofar 5K...20KTL-3PH,Sofar,70
 Sofar HYD (3-20)KTL-3PH,Sofar,70
-SolaX X1 Hybrid,SolaX,71
-SolaX X1 Hybrid G4,SolaX,72
-SolaX X3 Hybrid,SolaX,71
-SolaX X3 Hybrid G4,SolaX,71
+SolaX X1 Hybrid,SolaX,70
+SolaX X1 Hybrid G4,SolaX,70
+SolaX X3 Hybrid,SolaX,70
+SolaX X3 Hybrid G4,SolaX,70
 SolaX X3-Ultra Hybrid,SolaX,70
 SolaX X3-Ultra Hybrid G4,SolaX,3
-Solis RHI-3P(5-10)K-HVES-5G / S6-EH1P10K-H-US-APST,Solis,71
-Solis RHI-3P(5-10)K-HVES-5G / S6-EH3P-(5-10.0K)-H-EU,Solis,71
-Solis S5-EH1P (3-6) K-L (5-6 kW 1P US),Solis,71
-Solis S6-EH3P(8-15)K-H 8-15 kW 3P (5-6 kW 1P US),Solis,71
+Solis RHI-3P(5-10)K-HVES-5G / S6-EH1P10K-H-US-APST,Solis,70
+Solis RHI-3P(5-10)K-HVES-5G / S6-EH3P-(5-10.0K)-H-EU,Solis,70
+Solis S5-EH1P (3-6) K-L (5-6 kW 1P US),Solis,70
+Solis S6-EH3P(8-15)K-H 8-15 kW 3P (5-6 kW 1P US),Solis,70
 Solxpow Solxpow X3 12-20kW,Solxpow,68
 Solxpow X3 12-20kW,Solxpow,3
 Sungrow SH15T/SH20T/SH25T,Sungrow,70
-Sungrow SH3.0/3.6/4.0/5.0/6.0RS,Sungrow,71
-Sungrow SH5.0/6.0/8.0/10RT,Sungrow,71
+Sungrow SH3.0/3.6/4.0/5.0/6.0RS,Sungrow,70
+Sungrow SH5.0/6.0/8.0/10RT,Sungrow,70

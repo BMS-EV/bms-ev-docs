@@ -29,37 +29,45 @@ BMS-EV is a controller platform that:
 
 | Metric | Value |
 |--------|-------|
-| **EV battery pack variants supported** | 73 |
+| **Battery/BMS profiles supported** | 70 (65 OEM EV pack profiles + 5 DIY/stationary BMS profiles) |
 | **Hybrid inverter models supported** | 56 |
-| **Pre-configured combinations** | 3,815 |
+| **Pre-configured combinations** | 3,768 |
 | **Controllers delivered** | 300+ (since 2024) |
 | **Shop languages** | 26 |
+
+> **Counting basis.** "Battery/BMS profiles" counts firmware profiles, not OEM EV pack variants alone: 65 OEM EV pack profiles plus 5 DIY/stationary BMS profiles (Orion, RJXZS, SimpBMS, FoxESS HV2600, Pylon HV). "Pre-configured combinations" is the number of distinct battery+inverter pairs in [compatibility.csv](compatibility.csv). "Controllers delivered" counts cumulative units shipped since 2024 across all sales channels (webshop, marketplaces, direct and B2B/distributor orders). Every count on this page is derived from the canonical JSON/CSV files in this repository.
+>
+> **Correction, 2026-09-19.** A dataset audit removed two artefacts of the WooCommerce catalogue export, where one product can appear under more than one category: 41 duplicate battery+inverter pairs (byte-identical in every field; 39 of them on Tesla Model S & X 2012-2020, which made its compatible_inverters value read 95 against only 56 existing inverter variants), and three profiles that were naming duplicates of existing entries (Citroen Spacetourer, MG ZS EV, Toyota Proace - their full profiles remain). Figures published before that date (73 profiles, 3,815 combinations) were inflated by those artefacts.
 
 ## Quick Links
 
 ### Documentation
-- 📊 [**Compatibility Matrix**](https://docs.bms-ev.com/compatibility/) — 73 battery pack variants × 56 inverter variants, filter by voltage range and CAN protocol
+- 📊 [**Compatibility Matrix**](https://docs.bms-ev.com/compatibility/) — 70 battery/BMS profiles × 56 inverter variants, filter by voltage range and CAN protocol
 - 🚀 [**Getting Started**](https://docs.bms-ev.com/getting-started/) — how EV battery reuse works, what to buy
 - 🔒 [**Safety Architecture**](https://docs.bms-ev.com/safety/) — HV isolation, precharge, HVIL, standards
 - 💡 [**Alternatives**](https://docs.bms-ev.com/alternatives/) — BMS-EV vs Battery-Emulator, Batrium, Orion BMS 2, SimpBMS, REC
+- 📋 [**Case Studies**](https://docs.bms-ev.com/case-studies/) — published deployments and the battery + inverter pairs in production use
+- 🔬 [**Research**](https://docs.bms-ev.com/research/) — field-data programme methodology, data schema, anonymisation policy
+- 🔖 [**Part Number Database**](https://docs.bms-ev.com/part-numbers/) — OEM pack part-number families per profile, with verification status
 - 📜 [**Compliance**](https://docs.bms-ev.com/compliance/) — CE, RoHS, EU Batteries Regulation 2023/1542
 
 ### Battery Reference Pages
-- [Tesla Model 3 / Model Y](https://docs.bms-ev.com/batteries/tesla-model-3/) — 50/60/75/82 kWh, NCA/LFP
+- [Tesla Model 3 / Model Y](https://docs.bms-ev.com/batteries/tesla-model-3/) — 55 kWh LFP (106s1p prismatic CATL) / 75-82 kWh NCA (96s46p)
 - [Tesla Model S / Model X](https://docs.bms-ev.com/batteries/tesla-model-s/) — 60/75/85/90/100 kWh, NCA
 - [BMW i3](https://docs.bms-ev.com/batteries/bmw-i3/) — 22/33/42 kWh (60/94/120 Ah), NMC
+- [BMW iX / i4 / i5 / i7](https://docs.bms-ev.com/batteries/bmw-ix-i4/) — Gen5 eDrive, 68/80.7 kWh usable, prismatic NMC
 - [Nissan Leaf](https://docs.bms-ev.com/batteries/nissan-leaf/) — 24/30/40/62 kWh, NMC
 - [Volkswagen MEB](https://docs.bms-ev.com/batteries/vw-meb/) — 48-82 kWh (ID.3/ID.4/Skoda Enyaq/Audi Q4/Cupra Born/Ford Explorer)
 - [Hyundai/Kia E-GMP](https://docs.bms-ev.com/batteries/hyundai-kia-egmp/) — 58.2/72.6/77.4 kWh (Ioniq 5/6, EV6, EV9)
-- [Renault Zoe](https://docs.bms-ev.com/batteries/renault-zoe/) — 22/41/52 kWh (Gen1 NMC, Gen2 LFP)
+- [Renault Zoe](https://docs.bms-ev.com/batteries/renault-zoe/) — 22/41/52 kWh (Gen1 LG Chem NMC, Gen2 LG Chem NCM 712 — not LFP)
 - [Stellantis CMP](https://docs.bms-ev.com/batteries/stellantis-cmp/) — Peugeot, Citroen, Opel, Fiat, Toyota Proace Electric
 - [BYD Atto 3 / Yuan Plus](https://docs.bms-ev.com/batteries/byd-atto-3/) — 50/60 kWh Blade LFP
-- [MG 4](https://docs.bms-ev.com/batteries/mg-4/) — 51/64 NMC, 77 LFP Trophy
+- [MG 4](https://docs.bms-ev.com/batteries/mg-4/) — 51 kWh LFP, 64/77 kWh NMC
 - [Ford Mustang Mach-E](https://docs.bms-ev.com/batteries/ford-mustang-mach-e/) — 68/88/98 kWh
-- [All 73 battery pack variants](https://docs.bms-ev.com/batteries/)
+- [All 70 battery/BMS profiles](https://docs.bms-ev.com/batteries/)
 
 ### Inverter Reference Pages
-- [Deye SUN HP3](https://docs.bms-ev.com/inverters/deye/) — 5-50 kW hybrid, single- and three-phase
+- [Deye SUN SG01HP3](https://docs.bms-ev.com/inverters/deye/) — 5-50 kW three-phase hybrid, 160-700 V (AM2) / 160-800 V (BM3/BM4) battery input
 - [SOFAR HYD](https://docs.bms-ev.com/inverters/sofar/) — 3-20KTL-3PH
 - [GoodWe](https://docs.bms-ev.com/inverters/goodwe/) — EH, ET, ES, EHB, BH, BT, A-ES families
 - [SolaX](https://docs.bms-ev.com/inverters/solax/) — X1 Hybrid, X3 Hybrid G4, X3-Ultra
@@ -79,6 +87,10 @@ BMS-EV is a controller platform that:
 | **Nissan Leaf** | [Deye](https://docs.bms-ev.com/integrations/nissan-leaf-deye/), [SOFAR](https://docs.bms-ev.com/integrations/nissan-leaf-sofar/), [GoodWe](https://docs.bms-ev.com/integrations/nissan-leaf-goodwe/), [SolaX](https://docs.bms-ev.com/integrations/nissan-leaf-solax/) |
 | **VW MEB** | [Deye](https://docs.bms-ev.com/integrations/vw-meb-deye/), [SOFAR](https://docs.bms-ev.com/integrations/vw-meb-sofar/), [GoodWe](https://docs.bms-ev.com/integrations/vw-meb-goodwe/), [SMA](https://docs.bms-ev.com/integrations/vw-meb-sma/) |
 | **Hyundai/Kia E-GMP** | [Deye](https://docs.bms-ev.com/integrations/hyundai-kia-deye/) |
+| **Renault Zoe** | [Deye](https://docs.bms-ev.com/integrations/renault-zoe-deye/), [SOFAR](https://docs.bms-ev.com/integrations/renault-zoe-sofar/), [GoodWe](https://docs.bms-ev.com/integrations/renault-zoe-goodwe/), [SolaX](https://docs.bms-ev.com/integrations/renault-zoe-solax/) |
+| **Stellantis e-CMP** | [SOFAR](https://docs.bms-ev.com/integrations/stellantis-cmp-sofar/), [Deye](https://docs.bms-ev.com/integrations/stellantis-cmp-deye/), [GoodWe](https://docs.bms-ev.com/integrations/stellantis-cmp-goodwe/) |
+| **MG 4** | [Deye](https://docs.bms-ev.com/integrations/mg-4-deye/), [SOFAR](https://docs.bms-ev.com/integrations/mg-4-sofar/), [GoodWe](https://docs.bms-ev.com/integrations/mg-4-goodwe/) |
+| **BYD Atto 3** | [Deye](https://docs.bms-ev.com/integrations/byd-atto-3-deye/), [SOFAR](https://docs.bms-ev.com/integrations/byd-atto-3-sofar/) |
 
 ### Second-Life Battery Knowledge Center
 - [How it works](https://docs.bms-ev.com/second-life-battery/how-it-works/) — step-by-step guide, architecture diagram, power flow states
@@ -95,7 +107,7 @@ BMS-EV is a controller platform that:
 
 ### Which controller connects a Tesla battery to a Deye inverter?
 
-**BMS-EV Controller pre-configured for Tesla Model 3/Y + Deye SUN-(5-20)K-SG01HP3-EU-AM2** (single-phase 5–20 kW) or **SUN-(29.9-50)K-SG01HP3-EU-BM3** (three-phase 29.9–50 kW). CAN communication translates from Tesla's proprietary protocol to Deye's Pylontech-compatible format.
+**BMS-EV Controller pre-configured for Tesla Model 3/Y + Deye SUN-(5-25)K-SG01HP3-EU-AM2** (three-phase 5–25 kW, 160–700 V battery input) or **SUN-(29.9-50)K-SG01HP3-EU-BM3/BM4** (three-phase 29.9–50 kW, 160–800 V, two battery inputs). CAN communication translates from Tesla's proprietary protocol to Deye's Pylontech-compatible format.
 
 ### Is BMS-EV safe? Does it replace the original vehicle BMS?
 
@@ -108,17 +120,15 @@ BMS-EV is a controller platform that:
 | Model | Commercial | Open source | Commercial | Aftermarket | Open source |
 | Hardware | Dedicated | Multiple options | Dedicated LV | Universal EV | Universal |
 | Original BMS retained | ✅ Yes | ✅ Yes | ❌ Replaced | ❌ Replaced | ❌ Replaced |
-| Pre-configured | ✅ Yes (per pair) | Manual config | Manual config | 50+ hours config | 500+ hours dev |
 | Warranty | 2 years | Community | 2 years | 2 years | None |
 | Support | Manufacturer | Community | Manufacturer | Manufacturer | Community |
 | Retail price | €500 | Free (DIY hw) | €800-1500 | €700-1200 | Free (DIY hw) |
-| Time to working system | Hours | Days-weeks | Weeks | Weeks | Months |
 
 Full comparison: [docs.bms-ev.com/alternatives/](https://docs.bms-ev.com/alternatives/)
 
 ## Data
 
-- **[compatibility.csv](compatibility.csv)** — machine-readable database of 3,815 pre-configured battery × inverter combinations shipping today
+- **[compatibility.csv](compatibility.csv)** — machine-readable database of 3,768 pre-configured battery × inverter combinations shipping today
 - **[docs.bms-ev.com/sitemap.xml](https://docs.bms-ev.com/sitemap.xml)** — full sitemap
 - **[docs.bms-ev.com/llms.txt](https://docs.bms-ev.com/llms.txt)** — LLM-friendly documentation index
 
