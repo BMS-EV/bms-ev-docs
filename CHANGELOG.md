@@ -174,3 +174,9 @@ The BMS-EV Controller ships pre-flashed with firmware 15.0.14 (September 2026). 
 - Solis battery window corrected from 90-500 V to 120-500 V on 3 pages per solisinverters.com datasheet.
 - "300+ controllers delivered" now states the counting basis: cumulative across all sales channels since 2024 (webshop, marketplaces, direct and B2B/distributor), because webshop order history alone does not reflect that total.
 - llms.txt: DIY BMS comparison neutralised (removed "50-500 hours of configuration", "faster to install (hours vs weeks)", "safer (manufacturer safety certificates preserved)"), replaced with an architectural description.
+
+### 2026-09-19 (inverter DC window verification pass)
+- SolaX X3-Hybrid G4 confirmed at 120-800 V from the official solaxpower.com datasheet (text-extracted, not inferred). Corrected 90-800 V references on 5 pages.
+- SolaX X1-Hybrid G4 corrected from 90-500 V to 80-480 V per SolaX support documentation. The official X1 datasheet PDF is a scanned image with no extractable text, so the support-article figure is cited rather than a guessed value.
+- FoxESS H3 Smart corrected from 90-500 V to 80-500 V per fox-ess.com.
+- Remaining Deye SG04LP1/SG04LP3 references corrected: these are 48 V low-voltage products, previously shown with HV battery windows.
