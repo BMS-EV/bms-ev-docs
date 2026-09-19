@@ -31,9 +31,15 @@
       "compatible_inverters": 54
     },
     {
-      "name": "BMW i3 (all sizes) (18/22/40 kWh)",
+      "name": "BMW i3 (all sizes) (60/94/120 Ah)",
       "brand": "BMW",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "energy_gross_kwh": "21.6 / 33.2 / 42.2",
+      "energy_net_kwh": "18.8 / 27.2 / 37.9",
+      "cell_capacity_ah": "60 / 94 / 120",
+      "configuration": "96s1p (8 modules x 12 prismatic cells)",
+      "nominal_voltage_v": "360 / 353 / 352",
+      "energy_basis_note": "Energy is stated on both bases because BMW marketing rounds the gross figures to 22/33/42 kWh. Gross and net from BMW specification tables; see the BMW i3 reference page for per-figure sources."
     },
     {
       "name": "BMW iX & i4-7 Platform (68/80.7 kWh)",

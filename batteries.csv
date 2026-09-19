@@ -1,7 +1,7 @@
 battery_profile,brand,profile_type,compatible_inverters
 Audi e-tron GT 93 kWh,Audi,oem_ev_pack,54
 BMW PHEV (330e/530e etc) (12/24 kWh),BMW,oem_ev_pack,54
-BMW i3 (all sizes) (18/22/40 kWh),BMW,oem_ev_pack,54
+BMW i3 (all sizes) (60/94/120 Ah),BMW,oem_ev_pack,54
 BMW iX & i4-7 Platform (68/80.7 kWh),BMW,oem_ev_pack,54
 BYD Atto 3 / Yuan Plus (50/60 kWh),BYD,oem_ev_pack,54
 BYD Dolphin mini / BYD E3 (38 kWh),BYD,oem_ev_pack,55
