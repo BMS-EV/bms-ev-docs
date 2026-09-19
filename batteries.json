@@ -2,7 +2,6 @@
   "meta": {
     "generated": "2026-09-19",
     "source": "https://bms-ev.com/ WooCommerce product catalog",
-    "total_batteries": 73,
     "total_inverters": 56,
     "total_combinations": 3768,
     "canonical_url_docs": "https://docs.bms-ev.com/",
@@ -10,7 +9,6 @@
     "canonical_url_github": "https://github.com/BMS-EV/",
     "total_battery_profiles": 70,
     "oem_ev_pack_profiles": 65,
-    "diy_stationary_bms_profiles": 5,
     "note": "total_battery_profiles counts battery/BMS profiles, not OEM EV pack variants alone: 68 OEM EV pack profiles plus 5 DIY/stationary BMS profiles. compatible_inverters is derived from compatibility.csv after deduplication.",
     "removed_duplicate_profiles": [
       "Citroen Spacetourer EV (50 kWh) (Stellantis e-CMP)",
@@ -23,7 +21,12 @@
       "diy_aftermarket_bms": 3,
       "oem_stationary_battery": 2
     },
-    "profile_type_note": "oem_ev_pack = a whole OEM EV traction pack read over CAN. diy_aftermarket_bms = a user-built pack whose aftermarket BMS (Orion, RJXZS, SimpBMS) the firmware reads. oem_stationary_battery = a commercial stationary battery product (FoxESS HV2600/ECS4100, Pylontech HV / Dyness Tower) the firmware reads. All three are read-side profiles; the HV/LV distinction in Battery-Emulator applies to the inverter-side protocol, not to these."
+    "profile_type_note": "oem_ev_pack = a whole OEM EV traction pack read over CAN. diy_aftermarket_bms = a user-built pack whose aftermarket BMS (Orion, RJXZS, SimpBMS) the firmware reads. oem_stationary_battery = a commercial stationary battery product (FoxESS HV2600/ECS4100, Pylontech HV / Dyness Tower) the firmware reads. All three are read-side profiles; the HV/LV distinction in Battery-Emulator applies to the inverter-side protocol, not to these.",
+    "aftermarket_bms_profiles": 3,
+    "oem_stationary_battery_profiles": 2,
+    "catalog_records_before_deduplication": 73,
+    "canonical_count_field": "total_battery_profiles",
+    "counting_note": "total_battery_profiles (70) is the canonical count: 65 OEM EV pack profiles + 3 aftermarket-BMS profiles + 2 OEM stationary battery profiles. catalog_records_before_deduplication (73) is the pre-2026-09-19 catalogue figure, retained for provenance only - it counted three naming duplicates that have since been removed. Do not use it as a live count."
   },
   "batteries": [
     {
