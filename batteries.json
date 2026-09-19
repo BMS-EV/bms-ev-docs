@@ -17,18 +17,26 @@
       "MG ZS EV (44/72 kWh)",
       "Toyota Proace EV (2020-) (Stellantis e-CMP)"
     ],
-    "removed_duplicate_note": "Three naming duplicates from the catalogue import were removed on 2026-09-19. Their full-profile equivalents remain: \"Citroen e-SpaceTourer / e-Jumpy (50/75 kWh) (Stellantis e-CMP)\", \"MG MG ZS EV (44/72 kWh)\" and \"Toyota Proace Electric (50/75 kWh) (Stellantis e-CMP)\"."
+    "removed_duplicate_note": "Three naming duplicates from the catalogue import were removed on 2026-09-19. Their full-profile equivalents remain: \"Citroen e-SpaceTourer / e-Jumpy (50/75 kWh) (Stellantis e-CMP)\", \"MG MG ZS EV (44/72 kWh)\" and \"Toyota Proace Electric (50/75 kWh) (Stellantis e-CMP)\".",
+    "profile_type_counts": {
+      "oem_ev_pack": 65,
+      "diy_aftermarket_bms": 3,
+      "oem_stationary_battery": 2
+    },
+    "profile_type_note": "oem_ev_pack = a whole OEM EV traction pack read over CAN. diy_aftermarket_bms = a user-built pack whose aftermarket BMS (Orion, RJXZS, SimpBMS) the firmware reads. oem_stationary_battery = a commercial stationary battery product (FoxESS HV2600/ECS4100, Pylontech HV / Dyness Tower) the firmware reads. All three are read-side profiles; the HV/LV distinction in Battery-Emulator applies to the inverter-side protocol, not to these."
   },
   "batteries": [
     {
       "name": "Audi e-tron GT 93 kWh",
       "brand": "Audi",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "BMW PHEV (330e/530e etc) (12/24 kWh)",
       "brand": "BMW",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "BMW i3 (all sizes) (60/94/120 Ah)",
@@ -39,342 +47,443 @@
       "cell_capacity_ah": "60 / 94 / 120",
       "configuration": "96s1p (8 modules x 12 prismatic cells)",
       "nominal_voltage_v": "360 / 353 / 352",
-      "energy_basis_note": "Energy is stated on both bases because BMW marketing rounds the gross figures to 22/33/42 kWh. Gross and net from BMW specification tables; see the BMW i3 reference page for per-figure sources."
+      "energy_basis_note": "Energy is stated on both bases because BMW marketing rounds the gross figures to 22/33/42 kWh. Gross and net from BMW specification tables; see the BMW i3 reference page for per-figure sources.",
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "BMW iX & i4-7 Platform (68/80.7 kWh)",
       "brand": "BMW",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
-      "name": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "name": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "brand": "BYD",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "energy_nameplate_kwh": "49.92 (SR) / 60.48 (ER)",
+      "energy_usable_kwh": "not published by BYD",
+      "nominal_voltage_v": "403.2 (ER, 126 x 3.2 V)",
+      "construction": "cell-to-pack (CTP) structural, LFP Blade prismatic long-cell",
+      "energy_basis_note": "BYD publishes one figure per pack with no gross/net qualifier. The figures are nameplate: cell count x 3.2 V x 150 Ah. Usable energy is undisclosed; third-party estimates disagree.",
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "BYD Dolphin mini / BYD E3 (38 kWh)",
       "brand": "BYD",
-      "compatible_inverters": 55
+      "compatible_inverters": 55,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "BYD Seal (60 kWh)",
       "brand": "BYD",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "BYD Seal U (71.80 kWh)",
       "brand": "BYD",
-      "compatible_inverters": 52
+      "compatible_inverters": 52,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "BYD Song Plus (82.56 kWh / 512V)",
       "brand": "BYD",
-      "compatible_inverters": 52
+      "compatible_inverters": 52,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Chevrolet Bolt (60/66 kWh)",
       "brand": "Chevrolet",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Citroen Basalt (2024-) (Stellantis CMP Smart Car)",
       "brand": "Citroen",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Citroen C-Zero (16 kWh)",
       "brand": "Citroen",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Citroen C3 Aircross (2024-) Europe (Stellantis CMP Smart Car)",
       "brand": "Citroen",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Citroen C3 Aircross CC24 (2023-) Asia/LatAm (Stellantis CMP Smart Car)",
       "brand": "Citroen",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Citroen C3 CC21 (2022-) Asia/LatAm (Stellantis CMP Smart Car)",
       "brand": "Citroen",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Citroen e-SpaceTourer / e-Jumpy (50/75 kWh) (Stellantis e-CMP)",
       "brand": "Citroen",
-      "compatible_inverters": 52
+      "compatible_inverters": 52,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Citroen ë-C3 / C3 IV (2024-) (Stellantis CMP Smart Car)",
       "brand": "Citroen",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Citroen ë-C4 (2020-) (Stellantis e-CMP)",
       "brand": "Citroen",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "DIY HV Orion BMS",
       "brand": "DIY",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "firmware_profile_name": "DIY battery with Orion BMS (Victron setting)",
+      "profile_kind": "aftermarket_bms_read",
+      "voltage_class": "HV (user-defined per pack)",
+      "note": "Aftermarket BMS the firmware reads over CAN. The Orion must be configured to transmit the Victron protocol. No fixed voltage range: configure it for your pack.",
+      "source": "Battery-Emulator wiki Orion BMS page; firmware ORION-BMS.h",
+      "profile_type": "diy_aftermarket_bms"
     },
     {
       "name": "DIY HV RJXZS BMS",
       "brand": "DIY",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "firmware_profile_name": "RJXZS BMS, DIY battery",
+      "profile_kind": "aftermarket_bms_read",
+      "voltage_class": "HV (user-defined per pack)",
+      "note": "Aftermarket BMS the firmware reads over CAN. Runs at 250 kbps, so it needs its own CAN channel and cannot share the inverter bus. BMS supports 4-192S.",
+      "source": "Battery-Emulator wiki RJXZS BMS page; firmware RJXZS-BMS.h",
+      "profile_type": "diy_aftermarket_bms"
     },
     {
       "name": "DIY HV Simp BMS",
       "brand": "DIY",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "firmware_profile_name": "SIMPBMS battery",
+      "profile_kind": "aftermarket_bms_read",
+      "voltage_class": "HV (user-defined per pack)",
+      "note": "Open-source aftermarket BMS the firmware reads over CAN; replaces the OEM BMS on BMW PHEV, VW PHEV/ID, Tesla and Outlander PHEV modules. Max 128 cells.",
+      "source": "Battery-Emulator wiki SimpBMS page; firmware SIMPBMS-BATTERY.h",
+      "profile_type": "diy_aftermarket_bms"
     },
     {
-      "name": "DIY LV FoxESS HV2600 batteries",
-      "brand": "DIY",
-      "compatible_inverters": 54
+      "name": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
+      "brand": "FoxESS",
+      "compatible_inverters": 54,
+      "firmware_profile_name": "FoxESS HV2600/ECS4100 OEM battery",
+      "profile_kind": "oem_stationary_battery_read",
+      "voltage_class": "HV",
+      "voltage_range_v": "80.0-467.2 (1-8 modules in series; 16 LFP cells per module)",
+      "stack_table": "1 module HS2.6 40.0-58.4 V (invalid for most HV inverters); 2 modules HS5.2 80.0-116.8 V; 4 modules HS10.4 160.0-233.6 V; 8 modules HS20.8 320.0-467.2 V",
+      "note": "High-voltage stationary LFP stack, not a 48 V product and not a DIY build. A single HV2600 module is ~48 V nominal, which is where the earlier \"LV\" label came from, but the product is an HV stack module.",
+      "source": "BMS-EV firmware FOXESS-BATTERY.cpp stack table; FoxESS HV2600 datasheet",
+      "profile_type": "oem_stationary_battery"
     },
     {
-      "name": "DIY LV Pylon HV batteries",
-      "brand": "DIY",
-      "compatible_inverters": 54
+      "name": "Pylontech HV / Dyness Tower compatible (HV)",
+      "brand": "Pylontech",
+      "compatible_inverters": 54,
+      "firmware_profile_name": "Pylon /Dyness compatible battery",
+      "profile_kind": "oem_stationary_battery_read",
+      "voltage_class": "HV",
+      "voltage_range_v": "no single range - generic protocol. Documented examples: SWA-204.8V50 180-228 V; SWA-307.2V503 270-340 V; SWA-409.6V50; Dyness Tower T7/T10/T14; Pylontech Force H3",
+      "note": "Pylontech HIGH-VOLTAGE range (Force H2/H3, SC/SWA series) and Dyness Tower. NOT the 48 V US2000/US3000/UP5000 line - those use a different protocol. In Battery-Emulator the HV/LV split lives on the inverter side (InverterProtocolType::Pylon vs PylonLv), not on the battery side.",
+      "source": "Battery-Emulator wiki \"Pylon HV\"; BMS-EV firmware PYLON-BATTERY.h",
+      "profile_type": "oem_stationary_battery"
     },
     {
       "name": "Dacia Spring (27 kWh)",
       "brand": "Dacia",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Fiat Fastback EV (2026-) (Stellantis CMP Smart Car)",
       "brand": "Fiat",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Fiat Grande Panda (2025-) (Stellantis CMP Smart Car)",
       "brand": "Fiat",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Fiat Multipla EV (2025-) (Stellantis CMP Smart Car)",
       "brand": "Fiat",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Fiat pickup EV (2025-) (Stellantis CMP Smart Car)",
       "brand": "Fiat",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Ford E-Transit (66/77 kWh)",
       "brand": "Ford",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Ford Mustang Mach-E (68/88/98 kWh)",
       "brand": "Ford",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Hyundai E‑GMP platform (58.2/72.6/77.4 kWh)",
       "brand": "Hyundai",
-      "compatible_inverters": 52
+      "compatible_inverters": 52,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Hyundai Kona 39/64kWh (39/64 kWh)",
       "brand": "Hyundai",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Hyundai Kona Hybrid (2 kWh)",
       "brand": "Hyundai",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Hyundai Santa Fe PHEV (14 kWh)",
       "brand": "Hyundai",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Jaguar I-PACE (90 kWh)",
       "brand": "Jaguar",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Kia EV6",
       "brand": "Kia",
-      "compatible_inverters": 52
+      "compatible_inverters": 52,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Kia Niro Hybrid (2/9 kWh)",
       "brand": "Kia",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Kia e-Niro 39/64kWh (39/64 kWh)",
       "brand": "Kia",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "MG HS PHEV (16 kWh)",
       "brand": "MG",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "MG MG ZS EV (44/72 kWh)",
       "brand": "MG",
-      "compatible_inverters": 52
+      "compatible_inverters": 52,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "MG MG4 EH32 (51/64/77 kWh)",
       "brand": "MG",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "MG MG5 / MG Marvel R (50/61 kWh)",
       "brand": "MG",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "MG MG5 / MG Marvel R (52.5/61/69.9 kWh)",
       "brand": "MG",
-      "compatible_inverters": 52
+      "compatible_inverters": 52,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Mini Cooper electric (32 kWh)",
       "brand": "Mini",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Mitsubishi i-Miev (16 kWh)",
       "brand": "Mitsubishi",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Nissan Ariya (65/87 kWh)",
       "brand": "Nissan",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Nissan LEAF (24/30/40/62 kWh)",
       "brand": "Nissan",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Nissan Sakura (20 kWh)",
       "brand": "Nissan",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Nissan e-NV200 (24/40 kWh)",
       "brand": "Nissan",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Opel Ampera-e (60/66 kWh)",
       "brand": "Opel",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Opel Frontera EV (2024-) (Stellantis CMP Smart Car)",
       "brand": "Opel",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Opel/Vauxhall Corsa-e/Mokka-e (2019-) (Stellantis e-CMP)",
       "brand": "Opel/Vauxhall",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Peugeot Ion (16 kWh)",
       "brand": "Peugeot",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Peugeot e-208/e-2008 (2020-) (Stellantis e-CMP)",
       "brand": "Peugeot",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Polestar 2 (78 kWh)",
       "brand": "Polestar",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Porsche Taycan 93 kWh",
       "brand": "Porsche",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Renault Fluence ZE (22/36 kWh)",
       "brand": "Renault",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Renault Kangoo (22/33 kWh)",
       "brand": "Renault",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Renault K‑ZE (27 kWh)",
       "brand": "Renault",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Renault Twizy (6.1 kWh)",
       "brand": "Renault",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Renault Zoe Gen1 (22/41 kWh)",
       "brand": "Renault",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Renault Zoe Gen2 (52 kWh)",
       "brand": "Renault",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Rivian R1T (135 kWh)",
       "brand": "Rivian",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Tesla Model 3 & Y (all sizes) (All)",
       "brand": "Tesla",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Tesla Model S & X (2012-2020) (60-100 kWh)",
       "brand": "Tesla",
-      "compatible_inverters": 56
+      "compatible_inverters": 56,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Tesla Model S & X (2021+) (100+ kWh)",
       "brand": "Tesla",
-      "compatible_inverters": 55
+      "compatible_inverters": 55,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Toyota Proace Electric (50/75 kWh) (Stellantis e-CMP)",
       "brand": "Toyota",
-      "compatible_inverters": 52
+      "compatible_inverters": 52,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Volkswagen MEB Platform (48/55/61/82 kWh)",
       "brand": "Volkswagen",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Volvo EX30 (49/69 kWh)",
       "brand": "Volvo",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     },
     {
       "name": "Volvo XC40/C40 (69/78/82 kWh)",
       "brand": "Volvo",
-      "compatible_inverters": 54
+      "compatible_inverters": 54,
+      "profile_type": "oem_ev_pack"
     }
   ]
 }

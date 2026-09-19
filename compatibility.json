@@ -56,7 +56,12 @@
       "Citroen Spacetourer EV (50 kWh) (Stellantis e-CMP)",
       "MG ZS EV (44/72 kWh)",
       "Toyota Proace EV (2020-) (Stellantis e-CMP)"
-    ]
+    ],
+    "profile_type_counts": {
+      "oem_ev_pack": 65,
+      "diy_aftermarket_bms": 3,
+      "oem_stationary_battery": 2
+    }
   },
   "combinations": [
     {
@@ -3300,7 +3305,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Afore AF17K-THA 230V",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3315,7 +3320,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Deye SUN-(29.9-50)K-SG01HP3-EU-BM3",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3330,7 +3335,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Deye SUN-(5-20)K-SG01HP3-EU-AM2",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3345,7 +3350,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Felicity T-REX-50KHP3G01",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3360,7 +3365,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Ferroamp EnergyHub",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3375,7 +3380,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "FoxESS H1/AC1",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3390,7 +3395,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "FoxESS H3 Pro",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3405,7 +3410,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "FoxESS H3 Smart",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3420,7 +3425,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "FoxESS H3/AC3",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3435,7 +3440,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Fronius Primo Gen24 Plus",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3450,7 +3455,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Fronius Symo Gen24 Plus",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3465,7 +3470,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Fronius Symo Hybrid 3.0/4.0/5.0-3-S",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3480,7 +3485,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Fronius Verto Plus 15-33kW",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3495,7 +3500,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "GoodWe A-ES hybrid inverter (America Split Phase)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3510,7 +3515,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "GoodWe BH AC battery inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3525,7 +3530,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "GoodWe BT AC battery inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3540,7 +3545,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "GoodWe EH hybrid solar",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3555,7 +3560,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "GoodWe EHB high voltage battery",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3570,7 +3575,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "GoodWe EHB hybrid inverter (South Africa only)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3585,7 +3590,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "GoodWe ES hybrid solar",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3600,7 +3605,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "GoodWe ET hybrid solar",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3615,7 +3620,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "GoodWe SBP battery inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3630,7 +3635,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Growatt HV Growatt SPH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3645,7 +3650,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Growatt HV Growatt SPH (TL3-BH-UP) (5-10kW 3P)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3660,7 +3665,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Growatt LV Growatt SPH (4.6-10) (TL3-BH) (5-10kW 3P)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3675,7 +3680,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Growatt WIT 50-100K-HU",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3690,7 +3695,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Growatt WIT 50-100K-HU (TL3-BH-UP) (5-10kW 3P)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3705,7 +3710,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Hoymiles HYT/HAT-HV",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3720,7 +3725,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Huawei SUN2000-(2-6)KTL-L1 (400V)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3735,7 +3740,7 @@
       "notes": "DC/DC converter required between pack and inverter (Huawei battery interface targets its LUNA2000 350-560 V window)."
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Huawei SUN2000-(3-20)K-MB0 (400V)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3750,7 +3755,7 @@
       "notes": "DC/DC converter required between pack and inverter (Huawei battery interface targets its LUNA2000 350-560 V window)."
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Kostal Plenticore Plus (3.0-10)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3765,7 +3770,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Maple Leaf Northern Fox H1-H3-AC1-KH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3780,7 +3785,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SAJ H2 Hybrid (3-12)K-S2",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3795,7 +3800,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SMA Sunny Boy Smart Energy 3.6 / 4.0 / 5.0 / 6.0-50 Hybrid Inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3810,7 +3815,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SMA Sunny Boy Smart Energy 3.6-6.0",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3825,7 +3830,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SMA Sunny Boy Storage 2.5",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3840,7 +3845,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SMA Sunny Boy Storage 2.5 / 3.7 / 5.0 / 6.0",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3855,7 +3860,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SMA Sunny Tripower Smart 5.0-10.0 SE",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3870,7 +3875,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SMA Sunny Tripower X",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3885,7 +3890,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Sofar 5K...20KTL-3PH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3900,7 +3905,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Sofar HYD (3-20)KTL-3PH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3915,7 +3920,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SolaX X1 Hybrid",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3930,7 +3935,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SolaX X1 Hybrid G4",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3945,7 +3950,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SolaX X3 Hybrid",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3960,7 +3965,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SolaX X3 Hybrid G4",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3975,7 +3980,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "SolaX X3-Ultra Hybrid",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -3990,7 +3995,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Solis RHI-3P(5-10)K-HVES-5G / S6-EH1P10K-H-US-APST",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -4005,7 +4010,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Solis RHI-3P(5-10)K-HVES-5G / S6-EH3P-(5-10.0K)-H-EU",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -4020,7 +4025,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Solis S5-EH1P (3-6) K-L (5-6 kW 1P US)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -4035,7 +4040,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Solis S6-EH3P(8-15)K-H 8-15 kW 3P (5-6 kW 1P US)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -4050,7 +4055,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Solxpow Solxpow X3 12-20kW",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -4065,7 +4070,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Sungrow SH15T/SH20T/SH25T",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -4080,7 +4085,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Sungrow SH3.0/3.6/4.0/5.0/6.0RS",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -4095,7 +4100,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "BYD Atto 3 / Yuan Plus (50/60 kWh)",
+      "battery_pack": "BYD Atto 3 / Yuan Plus (49.92/60.48 kWh)",
       "hybrid_inverter": "Sungrow SH5.0/6.0/8.0/10RT",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17805,7 +17810,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Afore AF17K-THA 230V",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17820,7 +17825,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Deye SUN-(29.9-50)K-SG01HP3-EU-BM3",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17835,7 +17840,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Deye SUN-(5-20)K-SG01HP3-EU-AM2",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17850,7 +17855,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Felicity T-REX-50KHP3G01",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17865,7 +17870,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Ferroamp EnergyHub",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17880,7 +17885,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "FoxESS H1/AC1",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17895,7 +17900,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "FoxESS H3 Pro",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17910,7 +17915,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "FoxESS H3 Smart",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17925,7 +17930,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "FoxESS H3/AC3",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17940,7 +17945,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Fronius Primo Gen24 Plus",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17955,7 +17960,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Fronius Symo Gen24 Plus",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17970,7 +17975,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Fronius Symo Hybrid 3.0/4.0/5.0-3-S",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -17985,7 +17990,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Fronius Verto Plus 15-33kW",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18000,7 +18005,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "GoodWe A-ES hybrid inverter (America Split Phase)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18015,7 +18020,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "GoodWe BH AC battery inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18030,7 +18035,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "GoodWe BT AC battery inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18045,7 +18050,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "GoodWe EH hybrid solar",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18060,7 +18065,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "GoodWe EHB high voltage battery",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18075,7 +18080,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "GoodWe EHB hybrid inverter (South Africa only)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18090,7 +18095,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "GoodWe ES hybrid solar",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18105,7 +18110,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "GoodWe ET hybrid solar",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18120,7 +18125,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "GoodWe SBP battery inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18135,7 +18140,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Growatt HV Growatt SPH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18150,7 +18155,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Growatt HV Growatt SPH (TL3-BH-UP) (5-10kW 3P)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18165,7 +18170,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Growatt LV Growatt SPH (4.6-10) (TL3-BH) (5-10kW 3P)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18180,7 +18185,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Growatt WIT 50-100K-HU",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18195,7 +18200,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Growatt WIT 50-100K-HU (TL3-BH-UP) (5-10kW 3P)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18210,7 +18215,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Hoymiles HYT/HAT-HV",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18225,7 +18230,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Huawei SUN2000-(2-6)KTL-L1 (400V)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18240,7 +18245,7 @@
       "notes": "DC/DC converter required between pack and inverter (Huawei battery interface targets its LUNA2000 350-560 V window)."
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Huawei SUN2000-(3-20)K-MB0 (400V)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18255,7 +18260,7 @@
       "notes": "DC/DC converter required between pack and inverter (Huawei battery interface targets its LUNA2000 350-560 V window)."
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Kostal Plenticore Plus (3.0-10)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18270,7 +18275,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Maple Leaf Northern Fox H1-H3-AC1-KH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18285,7 +18290,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SAJ H2 Hybrid (3-12)K-S2",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18300,7 +18305,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SMA Sunny Boy Smart Energy 3.6 / 4.0 / 5.0 / 6.0-50 Hybrid Inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18315,7 +18320,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SMA Sunny Boy Smart Energy 3.6-6.0",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18330,7 +18335,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SMA Sunny Boy Storage 2.5",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18345,7 +18350,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SMA Sunny Boy Storage 2.5 / 3.7 / 5.0 / 6.0",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18360,7 +18365,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SMA Sunny Tripower Smart 5.0-10.0 SE",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18375,7 +18380,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SMA Sunny Tripower X",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18390,7 +18395,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Sofar 5K...20KTL-3PH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18405,7 +18410,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Sofar HYD (3-20)KTL-3PH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18420,7 +18425,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SolaX X1 Hybrid",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18435,7 +18440,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SolaX X1 Hybrid G4",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18450,7 +18455,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SolaX X3 Hybrid",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18465,7 +18470,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SolaX X3 Hybrid G4",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18480,7 +18485,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "SolaX X3-Ultra Hybrid",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18495,7 +18500,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Solis RHI-3P(5-10)K-HVES-5G / S6-EH1P10K-H-US-APST",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18510,7 +18515,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Solis RHI-3P(5-10)K-HVES-5G / S6-EH3P-(5-10.0K)-H-EU",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18525,7 +18530,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Solis S5-EH1P (3-6) K-L (5-6 kW 1P US)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18540,7 +18545,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Solis S6-EH3P(8-15)K-H 8-15 kW 3P (5-6 kW 1P US)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18555,7 +18560,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Solxpow Solxpow X3 12-20kW",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18570,7 +18575,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Sungrow SH15T/SH20T/SH25T",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18585,7 +18590,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Sungrow SH3.0/3.6/4.0/5.0/6.0RS",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18600,7 +18605,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV FoxESS HV2600 batteries",
+      "battery_pack": "FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",
       "hybrid_inverter": "Sungrow SH5.0/6.0/8.0/10RT",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18615,7 +18620,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Afore AF17K-THA 230V",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18630,7 +18635,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Deye SUN-(29.9-50)K-SG01HP3-EU-BM3",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18645,7 +18650,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Deye SUN-(5-20)K-SG01HP3-EU-AM2",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18660,7 +18665,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Felicity T-REX-50KHP3G01",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18675,7 +18680,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Ferroamp EnergyHub",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18690,7 +18695,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "FoxESS H1/AC1",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18705,7 +18710,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "FoxESS H3 Pro",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18720,7 +18725,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "FoxESS H3 Smart",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18735,7 +18740,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "FoxESS H3/AC3",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18750,7 +18755,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Fronius Primo Gen24 Plus",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18765,7 +18770,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Fronius Symo Gen24 Plus",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18780,7 +18785,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Fronius Symo Hybrid 3.0/4.0/5.0-3-S",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18795,7 +18800,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Fronius Verto Plus 15-33kW",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18810,7 +18815,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "GoodWe A-ES hybrid inverter (America Split Phase)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18825,7 +18830,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "GoodWe BH AC battery inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18840,7 +18845,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "GoodWe BT AC battery inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18855,7 +18860,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "GoodWe EH hybrid solar",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18870,7 +18875,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "GoodWe EHB high voltage battery",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18885,7 +18890,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "GoodWe EHB hybrid inverter (South Africa only)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18900,7 +18905,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "GoodWe ES hybrid solar",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18915,7 +18920,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "GoodWe ET hybrid solar",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18930,7 +18935,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "GoodWe SBP battery inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18945,7 +18950,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Growatt HV Growatt SPH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18960,7 +18965,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Growatt HV Growatt SPH (TL3-BH-UP) (5-10kW 3P)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18975,7 +18980,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Growatt LV Growatt SPH (4.6-10) (TL3-BH) (5-10kW 3P)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -18990,7 +18995,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Growatt WIT 50-100K-HU",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19005,7 +19010,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Growatt WIT 50-100K-HU (TL3-BH-UP) (5-10kW 3P)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19020,7 +19025,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Hoymiles HYT/HAT-HV",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19035,7 +19040,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Huawei SUN2000-(2-6)KTL-L1 (400V)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19050,7 +19055,7 @@
       "notes": "DC/DC converter required between pack and inverter (Huawei battery interface targets its LUNA2000 350-560 V window)."
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Huawei SUN2000-(3-20)K-MB0 (400V)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19065,7 +19070,7 @@
       "notes": "DC/DC converter required between pack and inverter (Huawei battery interface targets its LUNA2000 350-560 V window)."
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Kostal Plenticore Plus (3.0-10)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19080,7 +19085,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Maple Leaf Northern Fox H1-H3-AC1-KH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19095,7 +19100,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SAJ H2 Hybrid (3-12)K-S2",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19110,7 +19115,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SMA Sunny Boy Smart Energy 3.6 / 4.0 / 5.0 / 6.0-50 Hybrid Inverter",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19125,7 +19130,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SMA Sunny Boy Smart Energy 3.6-6.0",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19140,7 +19145,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SMA Sunny Boy Storage 2.5",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19155,7 +19160,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SMA Sunny Boy Storage 2.5 / 3.7 / 5.0 / 6.0",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19170,7 +19175,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SMA Sunny Tripower Smart 5.0-10.0 SE",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19185,7 +19190,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SMA Sunny Tripower X",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19200,7 +19205,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Sofar 5K...20KTL-3PH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19215,7 +19220,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Sofar HYD (3-20)KTL-3PH",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19230,7 +19235,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SolaX X1 Hybrid",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19245,7 +19250,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SolaX X1 Hybrid G4",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19260,7 +19265,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SolaX X3 Hybrid",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19275,7 +19280,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SolaX X3 Hybrid G4",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19290,7 +19295,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "SolaX X3-Ultra Hybrid",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19305,7 +19310,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Solis RHI-3P(5-10)K-HVES-5G / S6-EH1P10K-H-US-APST",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19320,7 +19325,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Solis RHI-3P(5-10)K-HVES-5G / S6-EH3P-(5-10.0K)-H-EU",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19335,7 +19340,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Solis S5-EH1P (3-6) K-L (5-6 kW 1P US)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19350,7 +19355,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Solis S6-EH3P(8-15)K-H 8-15 kW 3P (5-6 kW 1P US)",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19365,7 +19370,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Solxpow Solxpow X3 12-20kW",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19380,7 +19385,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Sungrow SH15T/SH20T/SH25T",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19395,7 +19400,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Sungrow SH3.0/3.6/4.0/5.0/6.0RS",
       "status": "in_catalog",
       "controller_available": "yes",
@@ -19410,7 +19415,7 @@
       "notes": ""
     },
     {
-      "battery_pack": "DIY LV Pylon HV batteries",
+      "battery_pack": "Pylontech HV / Dyness Tower compatible (HV)",
       "hybrid_inverter": "Sungrow SH5.0/6.0/8.0/10RT",
       "status": "in_catalog",
       "controller_available": "yes",

@@ -1,71 +1,71 @@
-battery_profile,brand,profile_type,compatible_inverters
-Audi e-tron GT 93 kWh,Audi,oem_ev_pack,54
-BMW PHEV (330e/530e etc) (12/24 kWh),BMW,oem_ev_pack,54
-BMW i3 (all sizes) (60/94/120 Ah),BMW,oem_ev_pack,54
-BMW iX & i4-7 Platform (68/80.7 kWh),BMW,oem_ev_pack,54
-BYD Atto 3 / Yuan Plus (50/60 kWh),BYD,oem_ev_pack,54
-BYD Dolphin mini / BYD E3 (38 kWh),BYD,oem_ev_pack,55
-BYD Seal (60 kWh),BYD,oem_ev_pack,54
-BYD Seal U (71.80 kWh),BYD,oem_ev_pack,52
-BYD Song Plus (82.56 kWh / 512V),BYD,oem_ev_pack,52
-Chevrolet Bolt (60/66 kWh),Chevrolet,oem_ev_pack,54
-Citroen Basalt (2024-) (Stellantis CMP Smart Car),Citroen,oem_ev_pack,54
-Citroen C-Zero (16 kWh),Citroen,oem_ev_pack,54
-Citroen C3 Aircross (2024-) Europe (Stellantis CMP Smart Car),Citroen,oem_ev_pack,54
-Citroen C3 Aircross CC24 (2023-) Asia/LatAm (Stellantis CMP Smart Car),Citroen,oem_ev_pack,54
-Citroen C3 CC21 (2022-) Asia/LatAm (Stellantis CMP Smart Car),Citroen,oem_ev_pack,54
-Citroen e-SpaceTourer / e-Jumpy (50/75 kWh) (Stellantis e-CMP),Citroen,oem_ev_pack,52
-Citroen ë-C3 / C3 IV (2024-) (Stellantis CMP Smart Car),Citroen,oem_ev_pack,54
-Citroen ë-C4 (2020-) (Stellantis e-CMP),Citroen,oem_ev_pack,54
-DIY HV Orion BMS,DIY,diy_stationary_bms,54
-DIY HV RJXZS BMS,DIY,diy_stationary_bms,54
-DIY HV Simp BMS,DIY,diy_stationary_bms,54
-DIY LV FoxESS HV2600 batteries,DIY,diy_stationary_bms,54
-DIY LV Pylon HV batteries,DIY,diy_stationary_bms,54
-Dacia Spring (27 kWh),Dacia,oem_ev_pack,54
-Fiat Fastback EV (2026-) (Stellantis CMP Smart Car),Fiat,oem_ev_pack,54
-Fiat Grande Panda (2025-) (Stellantis CMP Smart Car),Fiat,oem_ev_pack,54
-Fiat Multipla EV (2025-) (Stellantis CMP Smart Car),Fiat,oem_ev_pack,54
-Fiat pickup EV (2025-) (Stellantis CMP Smart Car),Fiat,oem_ev_pack,54
-Ford E-Transit (66/77 kWh),Ford,oem_ev_pack,54
-Ford Mustang Mach-E (68/88/98 kWh),Ford,oem_ev_pack,54
-Hyundai E‑GMP platform (58.2/72.6/77.4 kWh),Hyundai,oem_ev_pack,52
-Hyundai Kona 39/64kWh (39/64 kWh),Hyundai,oem_ev_pack,54
-Hyundai Kona Hybrid (2 kWh),Hyundai,oem_ev_pack,54
-Hyundai Santa Fe PHEV (14 kWh),Hyundai,oem_ev_pack,54
-Jaguar I-PACE (90 kWh),Jaguar,oem_ev_pack,54
-Kia EV6,Kia,oem_ev_pack,52
-Kia Niro Hybrid (2/9 kWh),Kia,oem_ev_pack,54
-Kia e-Niro 39/64kWh (39/64 kWh),Kia,oem_ev_pack,54
-MG HS PHEV (16 kWh),MG,oem_ev_pack,54
-MG MG ZS EV (44/72 kWh),MG,oem_ev_pack,52
-MG MG4 EH32 (51/64/77 kWh),MG,oem_ev_pack,54
-MG MG5 / MG Marvel R (50/61 kWh),MG,oem_ev_pack,54
-MG MG5 / MG Marvel R (52.5/61/69.9 kWh),MG,oem_ev_pack,52
-Mini Cooper electric (32 kWh),Mini,oem_ev_pack,54
-Mitsubishi i-Miev (16 kWh),Mitsubishi,oem_ev_pack,54
-Nissan Ariya (65/87 kWh),Nissan,oem_ev_pack,54
-Nissan LEAF (24/30/40/62 kWh),Nissan,oem_ev_pack,54
-Nissan Sakura (20 kWh),Nissan,oem_ev_pack,54
-Nissan e-NV200 (24/40 kWh),Nissan,oem_ev_pack,54
-Opel Ampera-e (60/66 kWh),Opel,oem_ev_pack,54
-Opel Frontera EV (2024-) (Stellantis CMP Smart Car),Opel,oem_ev_pack,54
-Opel/Vauxhall Corsa-e/Mokka-e (2019-) (Stellantis e-CMP),Opel/Vauxhall,oem_ev_pack,54
-Peugeot Ion (16 kWh),Peugeot,oem_ev_pack,54
-Peugeot e-208/e-2008 (2020-) (Stellantis e-CMP),Peugeot,oem_ev_pack,54
-Polestar 2 (78 kWh),Polestar,oem_ev_pack,54
-Porsche Taycan 93 kWh,Porsche,oem_ev_pack,54
-Renault Fluence ZE (22/36 kWh),Renault,oem_ev_pack,54
-Renault Kangoo (22/33 kWh),Renault,oem_ev_pack,54
-Renault K‑ZE (27 kWh),Renault,oem_ev_pack,54
-Renault Twizy (6.1 kWh),Renault,oem_ev_pack,54
-Renault Zoe Gen1 (22/41 kWh),Renault,oem_ev_pack,54
-Renault Zoe Gen2 (52 kWh),Renault,oem_ev_pack,54
-Rivian R1T (135 kWh),Rivian,oem_ev_pack,54
-Tesla Model 3 & Y (all sizes) (All),Tesla,oem_ev_pack,54
-Tesla Model S & X (2012-2020) (60-100 kWh),Tesla,oem_ev_pack,56
-Tesla Model S & X (2021+) (100+ kWh),Tesla,oem_ev_pack,55
-Toyota Proace Electric (50/75 kWh) (Stellantis e-CMP),Toyota,oem_ev_pack,52
-Volkswagen MEB Platform (48/55/61/82 kWh),Volkswagen,oem_ev_pack,54
-Volvo EX30 (49/69 kWh),Volvo,oem_ev_pack,54
-Volvo XC40/C40 (69/78/82 kWh),Volvo,oem_ev_pack,54
+battery_profile,brand,profile_type,voltage_class,compatible_inverters
+Audi e-tron GT 93 kWh,Audi,oem_ev_pack,,54
+BMW PHEV (330e/530e etc) (12/24 kWh),BMW,oem_ev_pack,,54
+BMW i3 (all sizes) (60/94/120 Ah),BMW,oem_ev_pack,,54
+BMW iX & i4-7 Platform (68/80.7 kWh),BMW,oem_ev_pack,,54
+BYD Atto 3 / Yuan Plus (49.92/60.48 kWh),BYD,oem_ev_pack,,54
+BYD Dolphin mini / BYD E3 (38 kWh),BYD,oem_ev_pack,,55
+BYD Seal (60 kWh),BYD,oem_ev_pack,,54
+BYD Seal U (71.80 kWh),BYD,oem_ev_pack,,52
+BYD Song Plus (82.56 kWh / 512V),BYD,oem_ev_pack,,52
+Chevrolet Bolt (60/66 kWh),Chevrolet,oem_ev_pack,,54
+Citroen Basalt (2024-) (Stellantis CMP Smart Car),Citroen,oem_ev_pack,,54
+Citroen C-Zero (16 kWh),Citroen,oem_ev_pack,,54
+Citroen C3 Aircross (2024-) Europe (Stellantis CMP Smart Car),Citroen,oem_ev_pack,,54
+Citroen C3 Aircross CC24 (2023-) Asia/LatAm (Stellantis CMP Smart Car),Citroen,oem_ev_pack,,54
+Citroen C3 CC21 (2022-) Asia/LatAm (Stellantis CMP Smart Car),Citroen,oem_ev_pack,,54
+Citroen e-SpaceTourer / e-Jumpy (50/75 kWh) (Stellantis e-CMP),Citroen,oem_ev_pack,,52
+Citroen ë-C3 / C3 IV (2024-) (Stellantis CMP Smart Car),Citroen,oem_ev_pack,,54
+Citroen ë-C4 (2020-) (Stellantis e-CMP),Citroen,oem_ev_pack,,54
+DIY HV Orion BMS,DIY,diy_aftermarket_bms,HV (user-defined per pack),54
+DIY HV RJXZS BMS,DIY,diy_aftermarket_bms,HV (user-defined per pack),54
+DIY HV Simp BMS,DIY,diy_aftermarket_bms,HV (user-defined per pack),54
+"FoxESS HV2600 / ECS4100 (HV stack, 80–467 V)",FoxESS,oem_stationary_battery,HV,54
+Pylontech HV / Dyness Tower compatible (HV),Pylontech,oem_stationary_battery,HV,54
+Dacia Spring (27 kWh),Dacia,oem_ev_pack,,54
+Fiat Fastback EV (2026-) (Stellantis CMP Smart Car),Fiat,oem_ev_pack,,54
+Fiat Grande Panda (2025-) (Stellantis CMP Smart Car),Fiat,oem_ev_pack,,54
+Fiat Multipla EV (2025-) (Stellantis CMP Smart Car),Fiat,oem_ev_pack,,54
+Fiat pickup EV (2025-) (Stellantis CMP Smart Car),Fiat,oem_ev_pack,,54
+Ford E-Transit (66/77 kWh),Ford,oem_ev_pack,,54
+Ford Mustang Mach-E (68/88/98 kWh),Ford,oem_ev_pack,,54
+Hyundai E‑GMP platform (58.2/72.6/77.4 kWh),Hyundai,oem_ev_pack,,52
+Hyundai Kona 39/64kWh (39/64 kWh),Hyundai,oem_ev_pack,,54
+Hyundai Kona Hybrid (2 kWh),Hyundai,oem_ev_pack,,54
+Hyundai Santa Fe PHEV (14 kWh),Hyundai,oem_ev_pack,,54
+Jaguar I-PACE (90 kWh),Jaguar,oem_ev_pack,,54
+Kia EV6,Kia,oem_ev_pack,,52
+Kia Niro Hybrid (2/9 kWh),Kia,oem_ev_pack,,54
+Kia e-Niro 39/64kWh (39/64 kWh),Kia,oem_ev_pack,,54
+MG HS PHEV (16 kWh),MG,oem_ev_pack,,54
+MG MG ZS EV (44/72 kWh),MG,oem_ev_pack,,52
+MG MG4 EH32 (51/64/77 kWh),MG,oem_ev_pack,,54
+MG MG5 / MG Marvel R (50/61 kWh),MG,oem_ev_pack,,54
+MG MG5 / MG Marvel R (52.5/61/69.9 kWh),MG,oem_ev_pack,,52
+Mini Cooper electric (32 kWh),Mini,oem_ev_pack,,54
+Mitsubishi i-Miev (16 kWh),Mitsubishi,oem_ev_pack,,54
+Nissan Ariya (65/87 kWh),Nissan,oem_ev_pack,,54
+Nissan LEAF (24/30/40/62 kWh),Nissan,oem_ev_pack,,54
+Nissan Sakura (20 kWh),Nissan,oem_ev_pack,,54
+Nissan e-NV200 (24/40 kWh),Nissan,oem_ev_pack,,54
+Opel Ampera-e (60/66 kWh),Opel,oem_ev_pack,,54
+Opel Frontera EV (2024-) (Stellantis CMP Smart Car),Opel,oem_ev_pack,,54
+Opel/Vauxhall Corsa-e/Mokka-e (2019-) (Stellantis e-CMP),Opel/Vauxhall,oem_ev_pack,,54
+Peugeot Ion (16 kWh),Peugeot,oem_ev_pack,,54
+Peugeot e-208/e-2008 (2020-) (Stellantis e-CMP),Peugeot,oem_ev_pack,,54
+Polestar 2 (78 kWh),Polestar,oem_ev_pack,,54
+Porsche Taycan 93 kWh,Porsche,oem_ev_pack,,54
+Renault Fluence ZE (22/36 kWh),Renault,oem_ev_pack,,54
+Renault Kangoo (22/33 kWh),Renault,oem_ev_pack,,54
+Renault K‑ZE (27 kWh),Renault,oem_ev_pack,,54
+Renault Twizy (6.1 kWh),Renault,oem_ev_pack,,54
+Renault Zoe Gen1 (22/41 kWh),Renault,oem_ev_pack,,54
+Renault Zoe Gen2 (52 kWh),Renault,oem_ev_pack,,54
+Rivian R1T (135 kWh),Rivian,oem_ev_pack,,54
+Tesla Model 3 & Y (all sizes) (All),Tesla,oem_ev_pack,,54
+Tesla Model S & X (2012-2020) (60-100 kWh),Tesla,oem_ev_pack,,56
+Tesla Model S & X (2021+) (100+ kWh),Tesla,oem_ev_pack,,55
+Toyota Proace Electric (50/75 kWh) (Stellantis e-CMP),Toyota,oem_ev_pack,,52
+Volkswagen MEB Platform (48/55/61/82 kWh),Volkswagen,oem_ev_pack,,54
+Volvo EX30 (49/69 kWh),Volvo,oem_ev_pack,,54
+Volvo XC40/C40 (69/78/82 kWh),Volvo,oem_ev_pack,,54
