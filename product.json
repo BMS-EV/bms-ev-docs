@@ -1,0 +1,45 @@
+{
+  "_comment": "Single source of truth for BMS-EV controller facts. Update here; the documentation pages read this file at load time.",
+  "firmware": {
+    "current": "16.5.0",
+    "previous": "15.0.14",
+    "released": "2026-09-21",
+    "changes": [
+      "Generator (genset) control via SoC hysteresis relay output",
+      "Battery heating and cooling control with per-cell thresholds and hysteresis"
+    ]
+  },
+  "hardware": {
+    "current": "HW3.1"
+  },
+  "features": {
+    "generator_control": {
+      "available": true,
+      "since_firmware": "16.5.0",
+      "soc_start_default_pct": 20,
+      "soc_stop_default_pct": 50,
+      "single_battery_only": true,
+      "note": "Relay output only. The generator's starter circuit needs its own relay or contactor rated for the load."
+    },
+    "thermal_control": {
+      "available": true,
+      "since_firmware": "16.5.0",
+      "heat_below_default_c": 5,
+      "cool_above_default_c": 36,
+      "hysteresis_default_c": 5,
+      "heating_hard_block_above_c": 50,
+      "heating_follows": "coldest cell",
+      "cooling_follows": "hottest cell",
+      "single_battery_only": true,
+      "interlocks": [
+        "Both circuits switch off if battery communication is lost",
+        "Heating blocked above 50 C regardless of user setting",
+        "Heating and cooling never run simultaneously",
+        "Cooling takes priority when the pack is both too hot and too cold",
+        "Both circuits held off for the first seconds after power-up"
+      ],
+      "note": "Relay outputs only. Heater and cooling hardware need their own relays or contactors rated for the load."
+    }
+  },
+  "generated": "2026-09-21"
+}

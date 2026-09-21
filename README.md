@@ -126,6 +126,47 @@ BMS-EV is a controller platform that:
 
 Full comparison: [docs.bms-ev.com/alternatives/](https://docs.bms-ev.com/alternatives/)
 
+## Controller features beyond protocol translation
+
+Firmware 16.5.0 adds three relay outputs that let the storage system react to its own state.
+Both features are single-battery only: the outputs are physically the second battery's
+contactor pins, and the firmware refuses to claim them in a dual-battery installation.
+
+### Generator (genset) control
+
+Starts and stops a generator on state of charge, with hysteresis so it cannot short-cycle.
+
+| Setting | Default |
+|---|---|
+| Start threshold | 20 % SoC |
+| Stop threshold | 50 % SoC |
+
+For off-grid sites where the generator is the backup source.
+
+### Battery heating and cooling
+
+Keeps the pack in a safe temperature band. Heating follows the **coldest** cell, cooling the
+**hottest**, so neither end of the pack leaves its range.
+
+| Setting | Default |
+|---|---|
+| Heating threshold | 5 °C |
+| Cooling threshold | 36 °C |
+| Hysteresis | 5 °C |
+
+At the defaults, cooling starts above 36 °C and stops at 31 °C.
+
+Lithium cells will not accept charge below a certain temperature and the BMS blocks charging.
+This runs independently of whether the system is cycling, so a cold pack can be brought up to
+temperature before charging is attempted.
+
+**Safety interlocks:** both circuits switch off if battery communication is lost; heating is
+blocked above 50 °C regardless of the configured threshold; heating and cooling never run
+together; cooling takes priority; both stay off for the first seconds after power-up.
+
+**Wiring:** these are signal-level relay outputs. The heater, cooling system and generator
+starter each need their own relay or contactor rated for the load.
+
 ## Data
 
 - **[compatibility.csv](compatibility.csv)** — machine-readable database of 3,768 pre-configured battery × inverter combinations shipping today

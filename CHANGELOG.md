@@ -10,11 +10,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - **[inverters.json](https://docs.bms-ev.com/data/inverters.json)** — 56 hybrid inverter variants
 - **[compatibility.json](https://docs.bms-ev.com/data/compatibility.json)** — 3,815 pre-configured combinations
 
-## Controller firmware — current: 15.0.14
+## Controller firmware — current: 16.5.0
 
-The BMS-EV Controller ships pre-flashed with firmware 15.0.14 (September 2026). Each unit is compiled and flashed for a specific battery + inverter pair before shipping.
+The BMS-EV Controller ships pre-flashed with firmware 16.5.0 (September 2026). Each unit is compiled and flashed for a specific battery + inverter pair before shipping.
 
-### 15.0.14 (September 2026) — current
+### 16.5.0 (September 2026) — current
 - Kia EV6 (77.4 kWh 192s E-GMP pack) + SOFAR HYD 15KTL-3PH: verified pairing, referenced in PV Magazine Deutschland (July 2026)
 - SOFAR HYD 5–20KTL-3PH support extended to full 180–800 V DC input range (previously misdocumented as 500 V ceiling; verified against SOFAR official datasheet)
 - Corrected battery voltage range documentation to distinguish absolute range from full-power range per SOFAR HYD model
@@ -74,7 +74,7 @@ The BMS-EV Controller ships pre-flashed with firmware 15.0.14 (September 2026). 
 - Compatibility Matrix: added Verification levels section (Tested by BMS-EV / Customer verified / Experimental / Not supported)
 - Terminology: "battery models" → "battery pack variants" throughout documentation
 - Numbers unified across docs.bms-ev.com, GitHub, llms.txt: 73 battery pack variants × 56 inverter variants × 3,815 pre-configured combinations
-- Added "Current firmware: 15.0.14" to meta-info on all 59 documentation pages
+- Added "Current firmware: 16.5.0" to meta-info on all 59 documentation pages
 
 ### 2026-09-17
 - docs.bms-ev.com launched with 60 pages (Compatibility Matrix, 11 battery reference pages, 9 inverter hub pages, 25 integration guides, Safety, EV BMS, CAN Bus, Alternatives, Compliance, Second-life battery hub)
